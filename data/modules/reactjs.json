@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "id": "reactjs",
+    "title": "ReactJS Masterclass",
+    "description": "Understanding React Hooks and components",
+    "version": "1.0.0",
+    "author": "Your Name",
+    "lastUpdated": "2024-01-01",
+    "language": "vi",
+    "difficulty": "intermediate"
+  },
+  "categories": [
+    {
+      "id": "core",
+      "name": "Core Concepts",
+      "order": 1
+    }
+  ],
+  "sections": [
+    {
+      "id": "hooks",
+      "categoryId": "core",
+      "title": "React Hooks",
+      "subtitle": "Tìm hiểu về useState và useEffect",
+      "order": 1,
+      "content": {
+        "introduction": "Hooks cho phép bạn sử dụng state và các tính năng khác của React mà không cần viết class.",
+        "topics": [
+          {
+            "heading": "useState",
+            "content": "useState là hook cơ bản nhất để quản lý local state cho component.",
+            "codeExamples": [
+              {
+                "id": "ex-react-1",
+                "title": "Counter Example",
+                "language": "jsx",
+                "code": "import { useState } from 'react';\n\nfunction Counter() {\n  const [count, setCount] = useState(0);\n  return <button onClick={() => setCount(count + 1)}>{count}</button>;\n}"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

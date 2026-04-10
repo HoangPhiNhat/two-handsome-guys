@@ -1,0 +1,62 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2024-01-01",
+  "menu": [
+    {
+      "id": "javascript",
+      "title": "JavaScript",
+      "icon": "code",
+      "color": "yellow",
+      "expanded": true,
+      "order": 1,
+      "children": [
+        {
+          "id": "js-basics",
+          "title": "Cơ Bản",
+          "moduleId": "javascript",
+          "sectionId": "basics",
+          "order": 1,
+          "children": [
+            {
+              "id": "js-variables",
+              "title": "Variables & Data Types",
+              "moduleId": "javascript",
+              "sectionId": "variables",
+              "order": 1
+            },
+            {
+              "id": "js-operators",
+              "title": "Operators",
+              "moduleId": "javascript",
+              "sectionId": "operators",
+              "order": 2
+            }
+          ]
+        },
+        {
+          "id": "js-advanced",
+          "title": "Nâng Cao",
+          "moduleId": "javascript",
+          "sectionId": "advanced",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "reactjs",
+      "title": "ReactJS",
+      "icon": "atom",
+      "color": "cyan",
+      "order": 2,
+      "children": [
+        {
+          "id": "react-hooks",
+          "title": "Hooks",
+          "moduleId": "reactjs",
+          "sectionId": "hooks",
+          "order": 1
+        }
+      ]
+    }
+  ]
+}

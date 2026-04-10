@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Knowledge Hub</title>
+  
+  <!-- CSS Reset and Tailwind via CDN for zero-build -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            customBorder: 'var(--border-color)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Prism.js CSS (Theme) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+  <!-- Marked.js -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  
+  <!-- Prism.js Core & Languages -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-jsx.min.js"></script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="antialiased">
+
+  <!-- TOPBAR -->
+  <header class="fixed top-0 left-0 right-0 h-[var(--topbar-height)] surface border-b border-custom flex items-center justify-between px-4 z-50">
+    <div class="flex items-center gap-4">
+      <button id="sidebar-toggle" class="lg:hidden p-2 hover:bg-black/5 dark:hover:bg-white/5 rounded">
+        <i data-lucide="menu"></i>
+      </button>
+      <div class="font-bold text-xl flex items-center gap-2">
+        <i data-lucide="book" class="text-blue-500"></i>
+        <span class="hidden sm:inline">Knowledge Hub</span>
+      </div>
+      
+      <!-- Module Switcher -->
+      <div class="ml-4 module-switcher flex items-center bg-black/5 dark:bg-white/5 rounded">
+        <select id="moduleSelect" class="bg-transparent dark:bg-slate-800 dark:text-white pl-2 pr-8 py-1 rounded outline-none border-none cursor-pointer text-sm font-medium">
+          <!-- Populated by JS -->
+        </select>
+      </div>
+    </div>
+    
+    <div class="flex items-center gap-2">
+      <button id="search-toggle" class="p-2 hover:bg-black/5 dark:hover:bg-white/5 rounded hidden sm:block">
+        <i data-lucide="search" class="w-5 h-5"></i>
+      </button>
+      <button id="theme-toggle" class="p-2 hover:bg-black/5 dark:hover:bg-white/5 rounded">
+        <i data-lucide="moon" class="w-5 h-5 hidden dark:block"></i>
+        <i data-lucide="sun" class="w-5 h-5 block dark:hidden"></i>
+      </button>
+      <button class="p-2 hover:bg-black/5 dark:hover:bg-white/5 rounded">
+        <i data-lucide="settings" class="w-5 h-5"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- MAIN LAYOUT -->
+  <div class="layout-main relative">
+    
+    <!-- SIDEBAR -->
+    <aside id="sidebar" class="sidebar surface border-r border-custom pt-4">
+      <nav id="sidebar-menu" class="pb-10">
+        <!-- Rendered via JS -->
+      </nav>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main id="content-area" class="content-area pb-20">
+      <!-- Loading state -->
+      <div class="flex items-center justify-center p-12 opacity-50">
+        <i data-lucide="loader" class="animate-spin w-8 h-8"></i>
+      </div>
+    </main>
+
+  </div>
+
+  <!-- SEARCH MODAL -->
+  <div id="search-modal" class="fixed inset-0 bg-black/50 z-[60] hidden items-center justify-center">
+    <div class="surface w-full max-w-lg rounded-lg shadow-xl p-4 m-4">
+      <input type="text" id="search-input" placeholder="Tìm kiếm (VD: react, variables)..." class="w-full bg-transparent border border-custom rounded px-4 py-2 mb-4 focus:outline-none focus:border-blue-500">
+      <ul id="search-results" class="max-h-60 overflow-y-auto space-y-2"></ul>
+      <div class="text-right">
+        <button id="close-search" class="mt-4 text-sm opacity-70 hover:opacity-100">Đóng</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- App Scripts -->
+  <script src="./assets/js/renderer.js"></script>
+  <script src="./assets/js/router.js"></script>
+  <script src="./assets/js/main.js"></script>
+
+</body>
+</html>

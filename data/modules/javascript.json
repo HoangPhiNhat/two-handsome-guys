@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "id": "javascript",
+    "title": "JavaScript Complete Guide",
+    "description": "Hướng dẫn toàn diện về JavaScript từ cơ bản đến nâng cao",
+    "version": "1.0.0",
+    "author": "Your Name",
+    "lastUpdated": "2024-01-01",
+    "language": "vi",
+    "difficulty": "all",
+    "estimatedTime": "40 hours"
+  },
+  "categories": [
+    {
+      "id": "basics",
+      "name": "Cơ Bản",
+      "description": "Những khái niệm nền tảng",
+      "icon": "book-open",
+      "order": 1
+    },
+    {
+      "id": "advanced",
+      "name": "Nâng Cao",
+      "description": "Chủ đề nâng cao",
+      "icon": "trending-up",
+      "order": 2
+    }
+  ],
+  "sections": [
+    {
+      "id": "variables",
+      "categoryId": "basics",
+      "title": "Variables & Data Types",
+      "subtitle": "Hiểu về biến và kiểu dữ liệu trong JavaScript",
+      "order": 1,
+      "readTime": "15 mins",
+      "difficulty": "beginner",
+      "prerequisites": [],
+      "learningObjectives": [
+        "Hiểu cách khai báo biến với let, const, var",
+        "Phân biệt các kiểu dữ liệu primitive và reference",
+        "Áp dụng đúng loại biến cho từng trường hợp"
+      ],
+      "content": {
+        "introduction": "## Giới thiệu\n\nBiến là khái niệm cơ bản nhất trong lập trình... JavaScript sử dụng `var`, `let`, và `const`.",
+        "topics": [
+          {
+            "heading": "Khai báo Biến",
+            "content": "JavaScript có 3 cách khai báo biến...",
+            "codeExamples": [
+              {
+                "id": "ex-var-1",
+                "title": "So sánh let, const, var",
+                "language": "javascript",
+                "filename": "variables.js",
+                "code": "// Using let\nlet name = 'John';\nname = 'Jane'; // OK\n\n// Using const\nconst age = 25;\n// age = 26; // Error!\n\n// Using var (avoid)\nvar old = true;",
+                "explanation": "Giải thích sự khác biệt về scope và reassignment",
+                "output": "Console output (nếu có)",
+                "highlightLines": [1, 5, 9]
+              }
+            ],
+            "tips": [
+              "Luôn dùng const mặc định, chỉ dùng let khi cần reassign",
+              "Tránh dùng var trong ES6+"
+            ],
+            "warnings": [
+              "var có function scope, dễ gây bug khó tìm"
+            ]
+          },
+          {
+            "heading": "Kiểu Dữ Liệu",
+            "content": "JavaScript có 2 nhóm kiểu dữ liệu... primitive và reference.",
+            "tables": [
+              {
+                "headers": ["Kiểu", "Mô tả", "Ví dụ"],
+                "rows": [
+                  ["String", "Chuỗi ký tự", "'hello', \"world\""],
+                  ["Number", "Số (int/float)", "42, 3.14"],
+                  ["Boolean", "true/false", "true, false"]
+                ]
+              }
+            ]
+          }
+        ],
+        "summary": "## Tóm tắt\n\n- Dùng const/let thay vì var\n- JavaScript có kiểu động...",
+        "quiz": [
+          {
+            "question": "Cách nào sau đây là đúng?",
+            "options": [
+              "const x = 5; x = 10;",
+              "let y = 5; y = 10;",
+              "var z = 5; z = 10;"
+            ],
+            "correctAnswer": 1,
+            "explanation": "let cho phép reassignment"
+          }
+        ],
+        "references": [
+          {
+            "title": "MDN - Variables",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#variables",
+            "type": "documentation"
+          },
+          {
+            "title": "JavaScript.info - Variables",
+            "url": "https://javascript.info/variables",
+            "type": "tutorial"
+          }
+        ],
+        "exercises": [
+          {
+            "title": "Bài tập 1: Khai báo biến",
+            "description": "Tạo 3 biến lưu tên, tuổi, và email",
+            "difficulty": "easy",
+            "solution": {
+              "code": "const name = 'John';\nlet age = 25;\nconst email = 'john@example.com';"
+            }
+          }
+        ]
+      },
+      "tags": ["variables", "data-types", "basics", "fundamentals"],
+      "relatedSections": ["operators", "functions"]
+    },
+    {
+        "id": "operators",
+        "categoryId": "basics",
+        "title": "Operators",
+        "subtitle": "Toán tử trong JavaScript",
+        "order": 2,
+        "readTime": "10 mins",
+        "difficulty": "beginner",
+        "learningObjectives": [
+          "Phân biệt `==` và `===`"
+        ],
+        "content": {
+            "introduction": "Toán tử giúp bạn thực hiện các phép tính và so sánh.",
+            "topics": [
+                {
+                    "heading": "Strict vs Loose Equality",
+                    "content": "Luôn ưu tiên sử dụng `===` thay vì `==` để tránh type coercion ngầm.",
+                    "codeExamples": [
+                        {
+                            "id": "ex-op-1",
+                            "title": "So sánh toán tử",
+                            "language": "javascript",
+                            "code": "console.log(1 == '1');  // true (type coercion)\nconsole.log(1 === '1'); // false (strict type check)"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+  ]
+}
