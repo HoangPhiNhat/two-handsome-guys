@@ -1,0 +1,609 @@
+[
+  {
+    "id": "js-introduction-to-javascript",
+    "title": "Introduction to JavaScript",
+    "children": [
+      {
+        "id": "js-introduction-to-javascript-what-is-javascript",
+        "title": "What is JavaScript",
+        "sectionId": "what-is-javascript"
+      },
+      {
+        "id": "js-introduction-to-javascript-history-of-javascript",
+        "title": "History of JavaScript",
+        "sectionId": "history-of-javascript"
+      },
+      {
+        "id": "js-introduction-to-javascript-javascript-versions",
+        "title": "JavaScript Versions",
+        "sectionId": "javascript-versions"
+      },
+      {
+        "id": "js-introduction-to-javascript-how-to-run-javascript",
+        "title": "How to run JavaScript",
+        "sectionId": "how-to-run-javascript"
+      }
+    ]
+  },
+  {
+    "id": "js-all-about-variables",
+    "title": "All about Variables",
+    "children": [
+      {
+        "id": "js-all-about-variables-variable-declarations",
+        "title": "Variable Declarations",
+        "sectionId": "variable-declarations"
+      },
+      {
+        "id": "js-all-about-variables-hoisting",
+        "title": "Hoisting",
+        "sectionId": "hoisting"
+      },
+      {
+        "id": "js-all-about-variables-variable-naming-rules",
+        "title": "Variable Naming Rules",
+        "sectionId": "variable-naming-rules"
+      },
+      {
+        "id": "js-all-about-variables-variable-scopes",
+        "title": "Variable Scopes",
+        "sectionId": "variable-scopes"
+      }
+    ]
+  },
+  {
+    "id": "js-data-types",
+    "title": "Data Types",
+    "children": [
+      {
+        "id": "js-data-types-primitive-types",
+        "title": "Primitive Types",
+        "sectionId": "primitive-types"
+      },
+      {
+        "id": "js-data-types-object",
+        "title": "Object",
+        "sectionId": "object"
+      },
+      {
+        "id": "js-data-types-object-prototype",
+        "title": "Object Prototype",
+        "sectionId": "object-prototype"
+      },
+      {
+        "id": "js-data-types-prototypal-inheritance",
+        "title": "Prototypal Inheritance",
+        "sectionId": "prototypal-inheritance"
+      },
+      {
+        "id": "js-data-types-typeof-operator",
+        "title": "typeof operator",
+        "sectionId": "typeof-operator"
+      },
+      {
+        "id": "js-data-types-built-in-objects",
+        "title": "Built-in Objects",
+        "sectionId": "built-in-objects"
+      }
+    ]
+  },
+  {
+    "id": "js-type-casting",
+    "title": "Type Casting",
+    "children": [
+      {
+        "id": "js-type-casting-type-conversion-vs-coercion",
+        "title": "Type Conversion vs Coercion",
+        "sectionId": "type-conversion-vs-coercion"
+      },
+      {
+        "id": "js-type-casting-implicit-type-casting",
+        "title": "Implicit Type Casting",
+        "sectionId": "implicit-type-casting"
+      },
+      {
+        "id": "js-type-casting-explicit-type-casting",
+        "title": "Explicit Type Casting",
+        "sectionId": "explicit-type-casting"
+      }
+    ]
+  },
+  {
+    "id": "js-data-structures",
+    "title": "Data Structures",
+    "children": [
+      {
+        "id": "js-data-structures-keyed-collections",
+        "title": "Keyed Collections",
+        "children": [
+          {
+            "id": "js-data-structures-keyed-collections-map",
+            "title": "Map",
+            "sectionId": "map"
+          },
+          {
+            "id": "js-data-structures-keyed-collections-weak-map",
+            "title": "Weak Map",
+            "sectionId": "weak-map"
+          },
+          {
+            "id": "js-data-structures-keyed-collections-set",
+            "title": "Set",
+            "sectionId": "set"
+          },
+          {
+            "id": "js-data-structures-keyed-collections-weak-set",
+            "title": "Weak Set",
+            "sectionId": "weak-set"
+          }
+        ]
+      },
+      {
+        "id": "js-data-structures-indexed-collections",
+        "title": "Indexed Collections",
+        "children": [
+          {
+            "id": "js-data-structures-indexed-collections-typed-arrays",
+            "title": "Typed Arrays",
+            "sectionId": "typed-arrays"
+          },
+          {
+            "id": "js-data-structures-indexed-collections-arrays",
+            "title": "Arrays",
+            "sectionId": "arrays"
+          }
+        ]
+      },
+      {
+        "id": "js-data-structures-structured-data",
+        "title": "Structured Data",
+        "children": [
+          {
+            "id": "js-data-structures-structured-data-json",
+            "title": "JSON",
+            "sectionId": "json"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "js-equality-comparisons",
+    "title": "Equality Comparisons",
+    "children": [
+      {
+        "id": "js-equality-comparisons-value-comparison-operators",
+        "title": "Value Comparison Operators",
+        "children": [
+          {
+            "id": "js-equality-comparisons-value-comparison-operators-loose",
+            "title": "==",
+            "sectionId": "loose-equality"
+          },
+          {
+            "id": "js-equality-comparisons-value-comparison-operators-strict",
+            "title": "===",
+            "sectionId": "strict-equality"
+          },
+          {
+            "id": "js-equality-comparisons-value-comparison-operators-objectis",
+            "title": "Object.is",
+            "sectionId": "objectis"
+          }
+        ]
+      },
+      {
+        "id": "js-equality-comparisons-equality-algorithms",
+        "title": "Equality Algorithms",
+        "children": [
+          {
+            "id": "js-equality-comparisons-equality-algorithms-islooselyequal",
+            "title": "isLooselyEqual",
+            "sectionId": "islooselyequal"
+          },
+          {
+            "id": "js-equality-comparisons-equality-algorithms-isstrictlyequal",
+            "title": "isStrictlyEqual",
+            "sectionId": "isstrictlyequal"
+          },
+          {
+            "id": "js-equality-comparisons-equality-algorithms-samevaluezero",
+            "title": "SameValueZero",
+            "sectionId": "samevaluezero"
+          },
+          {
+            "id": "js-equality-comparisons-equality-algorithms-samevalue",
+            "title": "SameValue",
+            "sectionId": "samevalue"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "js-loops-and-iterations",
+    "title": "Loops and Iterations",
+    "children": [
+      {
+        "id": "js-loops-and-iterations-for",
+        "title": "for",
+        "sectionId": "for"
+      },
+      {
+        "id": "js-loops-and-iterations-dowhile",
+        "title": "do...while",
+        "sectionId": "dowhile"
+      },
+      {
+        "id": "js-loops-and-iterations-while",
+        "title": "while",
+        "sectionId": "while"
+      },
+      {
+        "id": "js-loops-and-iterations-forin-loop",
+        "title": "for...in loop",
+        "sectionId": "forin-loop"
+      },
+      {
+        "id": "js-loops-and-iterations-forof-loop",
+        "title": "for...of loop",
+        "sectionId": "forof-loop"
+      },
+      {
+        "id": "js-loops-and-iterations-break-continue",
+        "title": "break / continue",
+        "sectionId": "break-continue"
+      }
+    ]
+  },
+  {
+    "id": "js-control-flow",
+    "title": "Control Flow",
+    "children": [
+      {
+        "id": "js-control-flow-conditional-statements",
+        "title": "Conditional Statements",
+        "children": [
+          {
+            "id": "js-control-flow-conditional-statements-ifelse",
+            "title": "if...else",
+            "sectionId": "ifelse"
+          },
+          {
+            "id": "js-control-flow-conditional-statements-switch",
+            "title": "Switch",
+            "sectionId": "switch"
+          }
+        ]
+      },
+      {
+        "id": "js-control-flow-exceptional-handling",
+        "title": "Exceptional Handling",
+        "children": [
+          {
+            "id": "js-control-flow-exceptional-handling-throw-statement",
+            "title": "throw statement",
+            "sectionId": "throw-statement"
+          },
+          {
+            "id": "js-control-flow-exceptional-handling-trycatchfinally",
+            "title": "try/catch/finally",
+            "sectionId": "trycatchfinally"
+          },
+          {
+            "id": "js-control-flow-exceptional-handling-error-objects",
+            "title": "Error Objects",
+            "sectionId": "error-objects"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "js-expressions-operators",
+    "title": "Expressions & Operators",
+    "children": [
+      {
+        "id": "js-expressions-operators-assignment-operators",
+        "title": "Assignment Operators",
+        "sectionId": "assignment-operators"
+      },
+      {
+        "id": "js-expressions-operators-comparison-operators",
+        "title": "Comparison Operators",
+        "sectionId": "comparison-operators"
+      },
+      {
+        "id": "js-expressions-operators-arithmetic-operators",
+        "title": "Arithmetic Operators",
+        "sectionId": "arithmetic-operators"
+      },
+      {
+        "id": "js-expressions-operators-bitwise-operators",
+        "title": "Bitwise Operators",
+        "sectionId": "bitwise-operators"
+      },
+      {
+        "id": "js-expressions-operators-logical-operators",
+        "title": "Logical Operators",
+        "sectionId": "logical-operators"
+      },
+      {
+        "id": "js-expressions-operators-bigint-operators",
+        "title": "BigInt Operators",
+        "sectionId": "bigint-operators"
+      },
+      {
+        "id": "js-expressions-operators-string-operators",
+        "title": "String Operators",
+        "sectionId": "string-operators"
+      },
+      {
+        "id": "js-expressions-operators-conditional-operators",
+        "title": "Conditional Operators",
+        "sectionId": "conditional-operators"
+      },
+      {
+        "id": "js-expressions-operators-comma-operators",
+        "title": "Comma Operators",
+        "sectionId": "comma-operators"
+      },
+      {
+        "id": "js-expressions-operators-unary-operators",
+        "title": "Unary Operators",
+        "sectionId": "unary-operators"
+      }
+    ]
+  },
+  {
+    "id": "js-functions",
+    "title": "Functions",
+    "children": [
+      {
+        "id": "js-functions-function-parameters",
+        "title": "Function Parameters",
+        "children": [
+          {
+            "id": "js-functions-function-parameters-default-params",
+            "title": "Default Params",
+            "sectionId": "default-params"
+          },
+          {
+            "id": "js-functions-function-parameters-rest",
+            "title": "Rest",
+            "sectionId": "rest"
+          }
+        ]
+      },
+      {
+        "id": "js-functions-arrow-functions",
+        "title": "Arrow Functions",
+        "sectionId": "arrow-functions"
+      },
+      {
+        "id": "js-functions-iifes",
+        "title": "IIFEs",
+        "sectionId": "iifes"
+      },
+      {
+        "id": "js-functions-arguments-object",
+        "title": "arguments object",
+        "sectionId": "arguments-object"
+      },
+      {
+        "id": "js-functions-scope-function-stack",
+        "title": "Scope & Function Stack",
+        "sectionId": "scope-function-stack"
+      },
+      {
+        "id": "js-functions-built-in-functions",
+        "title": "Built-in Functions",
+        "sectionId": "built-in-functions"
+      },
+      {
+        "id": "js-functions-recursion",
+        "title": "Recursion",
+        "sectionId": "recursion"
+      },
+      {
+        "id": "js-functions-lexical-scoping",
+        "title": "Lexical Scoping",
+        "sectionId": "lexical-scoping"
+      },
+      {
+        "id": "js-functions-closures",
+        "title": "Closures",
+        "sectionId": "closures"
+      }
+    ]
+  },
+  {
+    "id": "js-using-this-keyword",
+    "title": "Using (this) keyword",
+    "children": [
+      {
+        "id": "js-using-this-keyword-in-a-method",
+        "title": "in a method",
+        "sectionId": "in-a-method"
+      },
+      {
+        "id": "js-using-this-keyword-in-a-function",
+        "title": "in a function",
+        "sectionId": "in-a-function"
+      },
+      {
+        "id": "js-using-this-keyword-using-it-alone",
+        "title": "using it alone",
+        "sectionId": "using-it-alone"
+      },
+      {
+        "id": "js-using-this-keyword-in-event-handlers",
+        "title": "in event handlers",
+        "sectionId": "in-event-handlers"
+      },
+      {
+        "id": "js-using-this-keyword-in-arrow-functions",
+        "title": "in arrow functions",
+        "sectionId": "in-arrow-functions"
+      }
+    ]
+  },
+  {
+    "id": "js-function-borrowing",
+    "title": "Function Borrowing",
+    "children": [
+      {
+        "id": "js-function-borrowing-explicit-binding",
+        "title": "Explicit Binding",
+        "children": [
+          {
+            "id": "js-function-borrowing-explicit-binding-call",
+            "title": "call",
+            "sectionId": "call"
+          },
+          {
+            "id": "js-function-borrowing-explicit-binding-apply",
+            "title": "apply",
+            "sectionId": "apply"
+          },
+          {
+            "id": "js-function-borrowing-explicit-binding-bind",
+            "title": "bind",
+            "sectionId": "bind"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "js-strict-mode",
+    "title": "Strict Mode",
+    "sectionId": "strict-mode"
+  },
+  {
+    "id": "js-asynchronous-javascript",
+    "title": "Asynchronous JavaScript",
+    "children": [
+      {
+        "id": "js-asynchronous-javascript-event-loop",
+        "title": "Event Loop",
+        "sectionId": "event-loop"
+      },
+      {
+        "id": "js-asynchronous-javascript-settimeout",
+        "title": "setTimeout",
+        "sectionId": "settimeout"
+      },
+      {
+        "id": "js-asynchronous-javascript-setinterval",
+        "title": "setInterval",
+        "sectionId": "setinterval"
+      },
+      {
+        "id": "js-asynchronous-javascript-callbacks",
+        "title": "Callbacks",
+        "sectionId": "callbacks"
+      },
+      {
+        "id": "js-asynchronous-javascript-promises",
+        "title": "Promises",
+        "sectionId": "promises"
+      },
+      {
+        "id": "js-asynchronous-javascript-callback-hell",
+        "title": "Callback Hell",
+        "sectionId": "callback-hell"
+      },
+      {
+        "id": "js-asynchronous-javascript-asyncawait",
+        "title": "async/await",
+        "sectionId": "asyncawait"
+      }
+    ]
+  },
+  {
+    "id": "js-working-with-apis",
+    "title": "Working with APIs",
+    "children": [
+      {
+        "id": "js-working-with-apis-fetch",
+        "title": "Fetch",
+        "sectionId": "fetch"
+      },
+      {
+        "id": "js-working-with-apis-xmlhttprequest",
+        "title": "XMLHTTPRequest",
+        "sectionId": "xmlhttprequest"
+      }
+    ]
+  },
+  {
+    "id": "js-dom-apis",
+    "title": "DOM APIs",
+    "sectionId": "dom-apis"
+  },
+  {
+    "id": "js-classes",
+    "title": "Classes",
+    "sectionId": "classes"
+  },
+  {
+    "id": "js-iterators-and-generators",
+    "title": "Iterators and Generators",
+    "sectionId": "iterators-and-generators"
+  },
+  {
+    "id": "js-modules-in-javascript",
+    "title": "Modules in JavaScript",
+    "children": [
+      {
+        "id": "js-modules-in-javascript-commonjs",
+        "title": "CommonJS",
+        "sectionId": "commonjs"
+      },
+      {
+        "id": "js-modules-in-javascript-esm",
+        "title": "ESM",
+        "sectionId": "esm"
+      }
+    ]
+  },
+  {
+    "id": "js-memory-management",
+    "title": "Memory Management",
+    "children": [
+      {
+        "id": "js-memory-management-memory-lifecycle",
+        "title": "Memory Lifecycle",
+        "sectionId": "memory-lifecycle"
+      },
+      {
+        "id": "js-memory-management-garbage-collection",
+        "title": "Garbage Collection",
+        "sectionId": "garbage-collection"
+      }
+    ]
+  },
+  {
+    "id": "js-using-browser-devtools",
+    "title": "Using Browser DevTools",
+    "children": [
+      {
+        "id": "js-using-browser-devtools-debugging-issues",
+        "title": "Debugging Issues",
+        "children": [
+          {
+            "id": "js-using-browser-devtools-debugging-issues-debugging-memory-leaks",
+            "title": "Debugging Memory Leaks",
+            "sectionId": "debugging-memory-leaks"
+          },
+          {
+            "id": "js-using-browser-devtools-debugging-issues-debugging-performance",
+            "title": "Debugging Performance",
+            "sectionId": "debugging-performance"
+          }
+        ]
+      }
+    ]
+  }
+]

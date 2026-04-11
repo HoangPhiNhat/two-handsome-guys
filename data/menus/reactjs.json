@@ -1,0 +1,13 @@
+[
+  {
+    "id": "react-hooks",
+    "title": "Hooks",
+    "children": [
+      {
+        "id": "react-hooks-use-effect",
+        "title": "useEffect",
+        "sectionId": "hooks"
+      }
+    ]
+  }
+]

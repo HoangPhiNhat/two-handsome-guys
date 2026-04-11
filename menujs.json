@@ -1,0 +1,263 @@
+{
+  "name": "JavaScript",
+  "description": "Roadmap.sh JavaScript - Cấu trúc chi tiết theo nhánh",
+  "children": [
+    {
+      "name": "Introduction to JavaScript",
+      "children": [
+        { "name": "What is JavaScript" },
+        { "name": "History of JavaScript" },
+        { "name": "JavaScript Versions" },
+        { "name": "How to run JavaScript" }
+      ]
+    },
+    {
+      "name": "All about Variables",
+      "children": [
+        {
+          "name": "Variable Declarations",
+          "children": [
+            { "name": "var" },
+            { "name": "let" },
+            { "name": "const" }
+          ]
+        },
+        { "name": "Hoisting" },
+        { "name": "Variable Naming Rules" },
+        {
+          "name": "Variable Scopes",
+          "children": [
+            { "name": "Block" },
+            { "name": "Function" },
+            { "name": "Global" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data Types",
+      "children": [
+        {
+          "name": "Primitive Types",
+          "children": [
+            { "name": "string" },
+            { "name": "undefined" },
+            { "name": "number" },
+            { "name": "bigint" },
+            { "name": "boolean" },
+            { "name": "null" },
+            { "name": "Symbol" }
+          ]
+        },
+        { "name": "Object" },
+        { "name": "Object Prototype" },
+        { "name": "Prototypal Inheritance" },
+        { "name": "typeof operator" },
+        { "name": "Built-in Objects" }
+      ]
+    },
+    {
+      "name": "Type Casting",
+      "children": [
+        { "name": "Type Conversion vs Coercion" },
+        { "name": "Implicit Type Casting" },
+        { "name": "Explicit Type Casting" }
+      ]
+    },
+    {
+      "name": "Data Structures",
+      "children": [
+        {
+          "name": "Keyed Collections",
+          "children": [
+            { "name": "Map" },
+            { "name": "Weak Map" },
+            { "name": "Set" },
+            { "name": "Weak Set" }
+          ]
+        },
+        {
+          "name": "Indexed Collections",
+          "children": [
+            { "name": "Typed Arrays" },
+            { "name": "Arrays" }
+          ]
+        },
+        {
+          "name": "Structured Data",
+          "children": [
+            { "name": "JSON" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Equality Comparisons",
+      "children": [
+        {
+          "name": "Value Comparison Operators",
+          "children": [
+            { "name": "==" },
+            { "name": "===" },
+            { "name": "Object.is" }
+          ]
+        },
+        {
+          "name": "Equality Algorithms",
+          "children": [
+            { "name": "isLooselyEqual" },
+            { "name": "isStrictlyEqual" },
+            { "name": "SameValueZero" },
+            { "name": "SameValue" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Loops and Iterations",
+      "children": [
+        { "name": "for" },
+        { "name": "do...while" },
+        { "name": "while" },
+        { "name": "for...in loop" },
+        { "name": "for...of loop" },
+        { "name": "break / continue" }
+      ]
+    },
+    {
+      "name": "Control Flow",
+      "children": [
+        {
+          "name": "Conditional Statements",
+          "children": [
+            { "name": "if...else" },
+            { "name": "Switch" }
+          ]
+        },
+        {
+          "name": "Exceptional Handling",
+          "children": [
+            { "name": "throw statement" },
+            { "name": "try/catch/finally" },
+            { "name": "Error Objects" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Expressions & Operators",
+      "children": [
+        { "name": "Assignment Operators" },
+        { "name": "Comparison Operators" },
+        { "name": "Arithmetic Operators" },
+        { "name": "Bitwise Operators" },
+        { "name": "Logical Operators" },
+        { "name": "BigInt Operators" },
+        { "name": "String Operators" },
+        { "name": "Conditional Operators" },
+        { "name": "Comma Operators" },
+        { "name": "Unary Operators" }
+      ]
+    },
+    {
+      "name": "Functions",
+      "children": [
+        {
+          "name": "Function Parameters",
+          "children": [
+            { "name": "Default Params" },
+            { "name": "Rest" }
+          ]
+        },
+        { "name": "Arrow Functions" },
+        { "name": "IIFEs" },
+        { "name": "arguments object" },
+        { "name": "Scope & Function Stack" },
+        { "name": "Built-in Functions" },
+        { "name": "Recursion" },
+        { "name": "Lexical Scoping" },
+        { "name": "Closures" }
+      ]
+    },
+    {
+      "name": "Using (this) keyword",
+      "children": [
+        { "name": "in a method" },
+        { "name": "in a function" },
+        { "name": "using it alone" },
+        { "name": "in event handlers" },
+        { "name": "in arrow functions" }
+      ]
+    },
+    {
+      "name": "Function Borrowing",
+      "children": [
+        {
+          "name": "Explicit Binding",
+          "children": [
+            { "name": "call" },
+            { "name": "apply" },
+            { "name": "bind" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Strict Mode"
+    },
+    {
+      "name": "Asynchronous JavaScript",
+      "children": [
+        { "name": "Event Loop" },
+        { "name": "setTimeout" },
+        { "name": "setInterval" },
+        { "name": "Callbacks" },
+        { "name": "Promises" },
+        { "name": "Callback Hell" },
+        { "name": "async/await" }
+      ]
+    },
+    {
+      "name": "Working with APIs",
+      "children": [
+        { "name": "Fetch" },
+        { "name": "XMLHTTPRequest" }
+      ]
+    },
+    {
+      "name": "DOM APIs"
+    },
+    {
+      "name": "Classes"
+    },
+    {
+      "name": "Iterators and Generators"
+    },
+    {
+      "name": "Modules in JavaScript",
+      "children": [
+        { "name": "CommonJS" },
+        { "name": "ESM" }
+      ]
+    },
+    {
+      "name": "Memory Management",
+      "children": [
+        { "name": "Memory Lifecycle" },
+        { "name": "Garbage Collection" }
+      ]
+    },
+    {
+      "name": "Using Browser DevTools",
+      "children": [
+        {
+          "name": "Debugging Issues",
+          "children": [
+            { "name": "Debugging Memory Leaks" },
+            { "name": "Debugging Performance" }
+          ]
+        }
+      ]
+    }
+  ]
+}
