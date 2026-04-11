@@ -1,0 +1,798 @@
+[
+  {
+    "id": "internet",
+    "title": "Internet",
+    "children": [
+      {
+        "id": "internet-how-does-the-internet-work",
+        "title": "How does the internet work?",
+        "sectionId": "how-does-the-internet-work"
+      },
+      {
+        "id": "internet-what-is-http",
+        "title": "What is HTTP?",
+        "sectionId": "what-is-http"
+      },
+      {
+        "id": "internet-what-is-domain-name",
+        "title": "What is Domain Name?",
+        "sectionId": "what-is-domain-name"
+      },
+      {
+        "id": "internet-what-is-hosting",
+        "title": "What is hosting?",
+        "sectionId": "what-is-hosting"
+      },
+      {
+        "id": "internet-dns-and-how-it-works",
+        "title": "DNS and how it works?",
+        "sectionId": "dns-and-how-it-works"
+      },
+      {
+        "id": "internet-browsers-and-how-they-work",
+        "title": "Browsers and how they work?",
+        "sectionId": "browsers-and-how-they-work"
+      }
+    ]
+  },
+  {
+    "id": "pick-a-language",
+    "title": "Pick a Language",
+    "children": [
+      {
+        "id": "pick-a-language-javascript",
+        "title": "JavaScript",
+        "sectionId": "javascript"
+      },
+      {
+        "id": "pick-a-language-go",
+        "title": "Go",
+        "sectionId": "go"
+      },
+      {
+        "id": "pick-a-language-python",
+        "title": "Python",
+        "sectionId": "python"
+      },
+      {
+        "id": "pick-a-language-ruby",
+        "title": "Ruby",
+        "sectionId": "ruby"
+      },
+      {
+        "id": "pick-a-language-java",
+        "title": "Java",
+        "sectionId": "java"
+      },
+      {
+        "id": "pick-a-language-c",
+        "title": "C#",
+        "sectionId": "c"
+      },
+      {
+        "id": "pick-a-language-php",
+        "title": "PHP",
+        "sectionId": "php"
+      },
+      {
+        "id": "pick-a-language-rust",
+        "title": "Rust",
+        "sectionId": "rust"
+      }
+    ]
+  },
+  {
+    "id": "version-control-systems",
+    "title": "Version Control Systems",
+    "children": [
+      {
+        "id": "version-control-systems-git",
+        "title": "Git",
+        "sectionId": "git"
+      }
+    ]
+  },
+  {
+    "id": "repo-hosting-services",
+    "title": "Repo Hosting Services",
+    "children": [
+      {
+        "id": "repo-hosting-services-github",
+        "title": "GitHub",
+        "sectionId": "github"
+      },
+      {
+        "id": "repo-hosting-services-gitlab",
+        "title": "GitLab",
+        "sectionId": "gitlab"
+      },
+      {
+        "id": "repo-hosting-services-bitbucket",
+        "title": "Bitbucket",
+        "sectionId": "bitbucket"
+      }
+    ]
+  },
+  {
+    "id": "relational-databases",
+    "title": "Relational Databases",
+    "children": [
+      {
+        "id": "relational-databases-postgresql",
+        "title": "PostgreSQL",
+        "sectionId": "postgresql"
+      },
+      {
+        "id": "relational-databases-mysql",
+        "title": "MySQL",
+        "sectionId": "mysql"
+      },
+      {
+        "id": "relational-databases-mariadb",
+        "title": "MariaDB",
+        "sectionId": "mariadb"
+      },
+      {
+        "id": "relational-databases-ms-sql",
+        "title": "MS SQL",
+        "sectionId": "ms-sql"
+      },
+      {
+        "id": "relational-databases-oracle",
+        "title": "Oracle",
+        "sectionId": "oracle"
+      },
+      {
+        "id": "relational-databases-sqlite",
+        "title": "SQLite",
+        "sectionId": "sqlite"
+      }
+    ]
+  },
+  {
+    "id": "learn-about-apis",
+    "title": "Learn about APIs",
+    "children": [
+      {
+        "id": "learn-about-apis-rest",
+        "title": "REST",
+        "sectionId": "rest"
+      },
+      {
+        "id": "learn-about-apis-json-apis",
+        "title": "JSON APIs",
+        "sectionId": "json-apis"
+      },
+      {
+        "id": "learn-about-apis-soap",
+        "title": "SOAP",
+        "sectionId": "soap"
+      },
+      {
+        "id": "learn-about-apis-grpc",
+        "title": "gRPC",
+        "sectionId": "grpc"
+      },
+      {
+        "id": "learn-about-apis-graphql",
+        "title": "GraphQL",
+        "sectionId": "graphql"
+      },
+      {
+        "id": "learn-about-apis-hateoas",
+        "title": "HATEOAS",
+        "sectionId": "hateoas"
+      },
+      {
+        "id": "learn-about-apis-open-api-specs",
+        "title": "Open API Specs",
+        "sectionId": "open-api-specs"
+      }
+    ]
+  },
+  {
+    "id": "authentication",
+    "title": "Authentication",
+    "children": [
+      {
+        "id": "authentication-jwt",
+        "title": "JWT",
+        "sectionId": "jwt"
+      },
+      {
+        "id": "authentication-basic-authentication",
+        "title": "Basic Authentication",
+        "sectionId": "basic-authentication"
+      },
+      {
+        "id": "authentication-token-authentication",
+        "title": "Token Authentication",
+        "sectionId": "token-authentication"
+      },
+      {
+        "id": "authentication-cookie-based-auth",
+        "title": "Cookie Based Auth",
+        "sectionId": "cookie-based-auth"
+      },
+      {
+        "id": "authentication-oauth",
+        "title": "OAuth",
+        "sectionId": "oauth"
+      },
+      {
+        "id": "authentication-openid",
+        "title": "OpenID",
+        "sectionId": "openid"
+      },
+      {
+        "id": "authentication-saml",
+        "title": "SAML",
+        "sectionId": "saml"
+      }
+    ]
+  },
+  {
+    "id": "caching",
+    "title": "Caching",
+    "children": [
+      {
+        "id": "caching-server-side",
+        "title": "Server Side",
+        "sectionId": "server-side"
+      },
+      {
+        "id": "caching-client-side",
+        "title": "Client Side",
+        "sectionId": "client-side"
+      },
+      {
+        "id": "caching-cdn",
+        "title": "CDN",
+        "sectionId": "cdn"
+      },
+      {
+        "id": "caching-redis",
+        "title": "Redis",
+        "sectionId": "redis"
+      },
+      {
+        "id": "caching-memcached",
+        "title": "Memcached",
+        "sectionId": "memcached"
+      }
+    ]
+  },
+  {
+    "id": "web-security",
+    "title": "Web Security",
+    "children": [
+      {
+        "id": "web-security-hashing-algorithms",
+        "title": "Hashing Algorithms",
+        "children": [
+          {
+            "id": "web-security-hashing-algorithms-md5",
+            "title": "MD5",
+            "sectionId": "md5"
+          },
+          {
+            "id": "web-security-hashing-algorithms-sha",
+            "title": "SHA",
+            "sectionId": "sha"
+          },
+          {
+            "id": "web-security-hashing-algorithms-scrypt",
+            "title": "scrypt",
+            "sectionId": "scrypt"
+          },
+          {
+            "id": "web-security-hashing-algorithms-bcrypt",
+            "title": "bcrypt",
+            "sectionId": "bcrypt"
+          }
+        ]
+      },
+      {
+        "id": "web-security-https",
+        "title": "HTTPS",
+        "sectionId": "https"
+      },
+      {
+        "id": "web-security-owasp-risks",
+        "title": "OWASP Risks",
+        "sectionId": "owasp-risks"
+      },
+      {
+        "id": "web-security-ssltls",
+        "title": "SSL/TLS",
+        "sectionId": "ssltls"
+      },
+      {
+        "id": "web-security-cors",
+        "title": "CORS",
+        "sectionId": "cors"
+      },
+      {
+        "id": "web-security-csp",
+        "title": "CSP",
+        "sectionId": "csp"
+      },
+      {
+        "id": "web-security-server-security",
+        "title": "Server Security",
+        "sectionId": "server-security"
+      },
+      {
+        "id": "web-security-api-security-best-practices",
+        "title": "API Security Best Practices",
+        "sectionId": "api-security-best-practices"
+      }
+    ]
+  },
+  {
+    "id": "testing",
+    "title": "Testing",
+    "children": [
+      {
+        "id": "testing-unit-testing",
+        "title": "Unit Testing",
+        "sectionId": "unit-testing"
+      },
+      {
+        "id": "testing-integration-testing",
+        "title": "Integration Testing",
+        "sectionId": "integration-testing"
+      },
+      {
+        "id": "testing-functional-testing",
+        "title": "Functional Testing",
+        "sectionId": "functional-testing"
+      },
+      {
+        "id": "testing-ci-cd",
+        "title": "CI / CD",
+        "sectionId": "ci-cd"
+      }
+    ]
+  },
+  {
+    "id": "more-about-databases",
+    "title": "More about Databases",
+    "children": [
+      {
+        "id": "more-about-databases-orms",
+        "title": "ORMs",
+        "sectionId": "orms"
+      },
+      {
+        "id": "more-about-databases-acid",
+        "title": "ACID",
+        "sectionId": "acid"
+      },
+      {
+        "id": "more-about-databases-transactions",
+        "title": "Transactions",
+        "sectionId": "transactions"
+      },
+      {
+        "id": "more-about-databases-n1-problem",
+        "title": "N+1 Problem",
+        "sectionId": "n1-problem"
+      },
+      {
+        "id": "more-about-databases-normalization",
+        "title": "Normalization",
+        "sectionId": "normalization"
+      },
+      {
+        "id": "more-about-databases-failure-modes",
+        "title": "Failure Modes",
+        "sectionId": "failure-modes"
+      },
+      {
+        "id": "more-about-databases-profiling-perfor",
+        "title": "Profiling Perfor.",
+        "sectionId": "profiling-perfor"
+      },
+      {
+        "id": "more-about-databases-migrations",
+        "title": "Migrations",
+        "sectionId": "migrations"
+      }
+    ]
+  },
+  {
+    "id": "scaling-databases",
+    "title": "Scaling Databases",
+    "children": [
+      {
+        "id": "scaling-databases-database-indexes",
+        "title": "Database Indexes",
+        "sectionId": "database-indexes"
+      },
+      {
+        "id": "scaling-databases-data-replication",
+        "title": "Data Replication",
+        "sectionId": "data-replication"
+      },
+      {
+        "id": "scaling-databases-sharding-strategies",
+        "title": "Sharding Strategies",
+        "sectionId": "sharding-strategies"
+      },
+      {
+        "id": "scaling-databases-cap-theorem",
+        "title": "CAP Theorem",
+        "sectionId": "cap-theorem"
+      }
+    ]
+  },
+  {
+    "id": "software-design-architecture",
+    "title": "Software Design & Architecture",
+    "children": [
+      {
+        "id": "software-design-architecture-design-and-development-principles",
+        "title": "Design and Development Principles",
+        "children": [
+          {
+            "id": "software-design-architecture-design-and-development-principles-gof-design-patterns",
+            "title": "GOF Design Patterns",
+            "sectionId": "gof-design-patterns"
+          },
+          {
+            "id": "software-design-architecture-design-and-development-principles-domain-driven-design",
+            "title": "Domain Driven Design",
+            "sectionId": "domain-driven-design"
+          },
+          {
+            "id": "software-design-architecture-design-and-development-principles-test-driven-development",
+            "title": "Test Driven Development",
+            "sectionId": "test-driven-development"
+          },
+          {
+            "id": "software-design-architecture-design-and-development-principles-cqrs",
+            "title": "CQRS",
+            "sectionId": "cqrs"
+          },
+          {
+            "id": "software-design-architecture-design-and-development-principles-event-sourcing",
+            "title": "Event Sourcing",
+            "sectionId": "event-sourcing"
+          }
+        ]
+      },
+      {
+        "id": "software-design-architecture-architectural-patterns",
+        "title": "Architectural Patterns",
+        "children": [
+          {
+            "id": "software-design-architecture-architectural-patterns-monolithic-apps",
+            "title": "Monolithic Apps",
+            "sectionId": "monolithic-apps"
+          },
+          {
+            "id": "software-design-architecture-architectural-patterns-microservices",
+            "title": "Microservices",
+            "sectionId": "microservices"
+          },
+          {
+            "id": "software-design-architecture-architectural-patterns-soa",
+            "title": "SOA",
+            "sectionId": "soa"
+          },
+          {
+            "id": "software-design-architecture-architectural-patterns-serverless",
+            "title": "Serverless",
+            "sectionId": "serverless"
+          },
+          {
+            "id": "software-design-architecture-architectural-patterns-service-mesh",
+            "title": "Service Mesh",
+            "sectionId": "service-mesh"
+          },
+          {
+            "id": "software-design-architecture-architectural-patterns-twelve-factor-apps",
+            "title": "Twelve Factor Apps",
+            "sectionId": "twelve-factor-apps"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "containerization-vs-virtualization",
+    "title": "Containerization vs Virtualization",
+    "children": [
+      {
+        "id": "containerization-vs-virtualization-docker",
+        "title": "Docker",
+        "sectionId": "docker"
+      },
+      {
+        "id": "containerization-vs-virtualization-lxc",
+        "title": "LXC",
+        "sectionId": "lxc"
+      },
+      {
+        "id": "containerization-vs-virtualization-kubernetes",
+        "title": "Kubernetes",
+        "sectionId": "kubernetes"
+      }
+    ]
+  },
+  {
+    "id": "web-servers",
+    "title": "Web Servers",
+    "children": [
+      {
+        "id": "web-servers-nginx",
+        "title": "Nginx",
+        "sectionId": "nginx"
+      },
+      {
+        "id": "web-servers-apache",
+        "title": "Apache",
+        "sectionId": "apache"
+      },
+      {
+        "id": "web-servers-caddy",
+        "title": "Caddy",
+        "sectionId": "caddy"
+      },
+      {
+        "id": "web-servers-ms-iis",
+        "title": "MS IIS",
+        "sectionId": "ms-iis"
+      }
+    ]
+  },
+  {
+    "id": "search-engines",
+    "title": "Search Engines",
+    "children": [
+      {
+        "id": "search-engines-elasticsearch",
+        "title": "Elasticsearch",
+        "sectionId": "elasticsearch"
+      },
+      {
+        "id": "search-engines-solr",
+        "title": "Solr",
+        "sectionId": "solr"
+      }
+    ]
+  },
+  {
+    "id": "message-brokers",
+    "title": "Message Brokers",
+    "children": [
+      {
+        "id": "message-brokers-rabbitmq",
+        "title": "RabbitMQ",
+        "sectionId": "rabbitmq"
+      },
+      {
+        "id": "message-brokers-kafka",
+        "title": "Kafka",
+        "sectionId": "kafka"
+      }
+    ]
+  },
+  {
+    "id": "nosql-databases",
+    "title": "NoSQL Databases",
+    "children": [
+      {
+        "id": "nosql-databases-document-dbs",
+        "title": "Document DBs",
+        "children": [
+          {
+            "id": "nosql-databases-document-dbs-mongodb",
+            "title": "MongoDB",
+            "sectionId": "mongodb"
+          },
+          {
+            "id": "nosql-databases-document-dbs-couchdb",
+            "title": "CouchDB",
+            "sectionId": "couchdb"
+          }
+        ]
+      },
+      {
+        "id": "nosql-databases-key-value",
+        "title": "Key-Value",
+        "children": [
+          {
+            "id": "nosql-databases-key-value-redis",
+            "title": "Redis",
+            "sectionId": "redis"
+          },
+          {
+            "id": "nosql-databases-key-value-dynamodb",
+            "title": "DynamoDB",
+            "sectionId": "dynamodb"
+          }
+        ]
+      },
+      {
+        "id": "nosql-databases-realtime",
+        "title": "Realtime",
+        "children": [
+          {
+            "id": "nosql-databases-realtime-firebase",
+            "title": "Firebase",
+            "sectionId": "firebase"
+          },
+          {
+            "id": "nosql-databases-realtime-rethinkdb",
+            "title": "RethinkDB",
+            "sectionId": "rethinkdb"
+          }
+        ]
+      },
+      {
+        "id": "nosql-databases-time-series",
+        "title": "Time Series",
+        "children": [
+          {
+            "id": "nosql-databases-time-series-influx-db",
+            "title": "Influx DB",
+            "sectionId": "influx-db"
+          },
+          {
+            "id": "nosql-databases-time-series-timescale",
+            "title": "TimeScale",
+            "sectionId": "timescale"
+          }
+        ]
+      },
+      {
+        "id": "nosql-databases-column-dbs",
+        "title": "Column DBs",
+        "children": [
+          {
+            "id": "nosql-databases-column-dbs-cassandra",
+            "title": "Cassandra",
+            "sectionId": "cassandra"
+          },
+          {
+            "id": "nosql-databases-column-dbs-base",
+            "title": "Base",
+            "sectionId": "base"
+          }
+        ]
+      },
+      {
+        "id": "nosql-databases-graph-dbs",
+        "title": "Graph DBs",
+        "children": [
+          {
+            "id": "nosql-databases-graph-dbs-neo4j",
+            "title": "Neo4j",
+            "sectionId": "neo4j"
+          },
+          {
+            "id": "nosql-databases-graph-dbs-aws-neptune",
+            "title": "AWS Neptune",
+            "sectionId": "aws-neptune"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "real-time-data",
+    "title": "Real-Time Data",
+    "children": [
+      {
+        "id": "real-time-data-websockets",
+        "title": "WebSockets",
+        "sectionId": "websockets"
+      },
+      {
+        "id": "real-time-data-server-sent-events",
+        "title": "Server Sent Events",
+        "sectionId": "server-sent-events"
+      },
+      {
+        "id": "real-time-data-long-polling",
+        "title": "Long Polling",
+        "sectionId": "long-polling"
+      },
+      {
+        "id": "real-time-data-short-polling",
+        "title": "Short Polling",
+        "sectionId": "short-polling"
+      },
+      {
+        "id": "real-time-data-graphql",
+        "title": "GraphQL",
+        "sectionId": "graphql"
+      }
+    ]
+  },
+  {
+    "id": "building-for-scale",
+    "title": "Building For Scale",
+    "children": [
+      {
+        "id": "building-for-scale-mitigation-strategies",
+        "title": "Mitigation Strategies",
+        "children": [
+          {
+            "id": "building-for-scale-mitigation-strategies-graceful-degradation",
+            "title": "Graceful Degradation",
+            "sectionId": "graceful-degradation"
+          },
+          {
+            "id": "building-for-scale-mitigation-strategies-throttling",
+            "title": "Throttling",
+            "sectionId": "throttling"
+          },
+          {
+            "id": "building-for-scale-mitigation-strategies-backpressure",
+            "title": "Backpressure",
+            "sectionId": "backpressure"
+          },
+          {
+            "id": "building-for-scale-mitigation-strategies-loadshifting",
+            "title": "Loadshifting",
+            "sectionId": "loadshifting"
+          },
+          {
+            "id": "building-for-scale-mitigation-strategies-circuit-breaker",
+            "title": "Circuit Breaker",
+            "sectionId": "circuit-breaker"
+          }
+        ]
+      },
+      {
+        "id": "building-for-scale-migration-strategies",
+        "title": "Migration Strategies",
+        "sectionId": "migration-strategies"
+      },
+      {
+        "id": "building-for-scale-types-of-scaling",
+        "title": "Types of Scaling",
+        "sectionId": "types-of-scaling"
+      }
+    ]
+  },
+  {
+    "id": "observability",
+    "title": "Observability",
+    "children": [
+      {
+        "id": "observability-difference-usage",
+        "title": "Difference & Usage",
+        "sectionId": "difference-usage"
+      },
+      {
+        "id": "observability-instrumentation",
+        "title": "Instrumentation",
+        "sectionId": "instrumentation"
+      },
+      {
+        "id": "observability-monitoring",
+        "title": "Monitoring",
+        "sectionId": "monitoring"
+      },
+      {
+        "id": "observability-telemetry",
+        "title": "Telemetry",
+        "sectionId": "telemetry"
+      },
+      {
+        "id": "observability-metrics-logging-and-other-observable-items",
+        "title": "Metrics logging and other observable items...",
+        "sectionId": "metrics-logging-and-other-observable-items"
+      }
+    ]
+  },
+  {
+    "id": "basic-infrastructure-knowledge",
+    "title": "Basic Infrastructure Knowledge",
+    "sectionId": "basic-infrastructure-knowledge"
+  }
+]

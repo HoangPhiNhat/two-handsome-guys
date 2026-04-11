@@ -1,12 +1,437 @@
 [
   {
-    "id": "react-hooks",
+    "id": "cli-tools",
+    "title": "CLI Tools",
+    "children": [
+      {
+        "id": "cli-tools-vite",
+        "title": "Vite",
+        "sectionId": "vite"
+      }
+    ]
+  },
+  {
+    "id": "components",
+    "title": "Components",
+    "children": [
+      {
+        "id": "components-component-basics",
+        "title": "Component Basics",
+        "children": [
+          {
+            "id": "components-component-basics-jsx",
+            "title": "JSX",
+            "sectionId": "jsx"
+          },
+          {
+            "id": "components-component-basics-props-vs-state",
+            "title": "Props vs State",
+            "sectionId": "props-vs-state"
+          },
+          {
+            "id": "components-component-basics-conditional-rendering",
+            "title": "Conditional Rendering",
+            "sectionId": "conditional-rendering"
+          },
+          {
+            "id": "components-component-basics-composition",
+            "title": "Composition",
+            "sectionId": "composition"
+          }
+        ]
+      },
+      {
+        "id": "components-functional-components",
+        "title": "Functional Components",
+        "sectionId": "functional-components"
+      },
+      {
+        "id": "components-rendering",
+        "title": "Rendering",
+        "children": [
+          {
+            "id": "components-rendering-component-lifecycle",
+            "title": "Component Lifecycle",
+            "sectionId": "component-lifecycle"
+          },
+          {
+            "id": "components-rendering-lists-and-keys",
+            "title": "Lists and Keys",
+            "sectionId": "lists-and-keys"
+          },
+          {
+            "id": "components-rendering-render-props",
+            "title": "Render Props",
+            "sectionId": "render-props"
+          },
+          {
+            "id": "components-rendering-refs",
+            "title": "Refs",
+            "sectionId": "refs"
+          },
+          {
+            "id": "components-rendering-events",
+            "title": "Events",
+            "sectionId": "events"
+          },
+          {
+            "id": "components-rendering-high-order-components",
+            "title": "High Order Components",
+            "sectionId": "high-order-components"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hooks",
     "title": "Hooks",
     "children": [
       {
-        "id": "react-hooks-use-effect",
-        "title": "useEffect",
-        "sectionId": "hooks"
+        "id": "hooks-basic-hooks",
+        "title": "Basic Hooks",
+        "children": [
+          {
+            "id": "hooks-basic-hooks-usestate",
+            "title": "useState",
+            "sectionId": "usestate"
+          },
+          {
+            "id": "hooks-basic-hooks-useeffect",
+            "title": "useEffect",
+            "sectionId": "useeffect"
+          }
+        ]
+      },
+      {
+        "id": "hooks-common-hooks",
+        "title": "Common Hooks",
+        "children": [
+          {
+            "id": "hooks-common-hooks-usecallback",
+            "title": "useCallback",
+            "sectionId": "usecallback"
+          },
+          {
+            "id": "hooks-common-hooks-useref",
+            "title": "useRef",
+            "sectionId": "useref"
+          },
+          {
+            "id": "hooks-common-hooks-usememo",
+            "title": "useMemo",
+            "sectionId": "usememo"
+          },
+          {
+            "id": "hooks-common-hooks-usereducer",
+            "title": "useReducer",
+            "sectionId": "usereducer"
+          },
+          {
+            "id": "hooks-common-hooks-usecontext",
+            "title": "useContext",
+            "sectionId": "usecontext"
+          }
+        ]
+      },
+      {
+        "id": "hooks-creating-custom-hooks",
+        "title": "Creating Custom Hooks",
+        "sectionId": "creating-custom-hooks"
+      },
+      {
+        "id": "hooks-hooks-best-practices",
+        "title": "Hooks Best Practices",
+        "sectionId": "hooks-best-practices"
+      }
+    ]
+  },
+  {
+    "id": "state-management",
+    "title": "State Management",
+    "children": [
+      {
+        "id": "state-management-context",
+        "title": "Context",
+        "sectionId": "context"
+      },
+      {
+        "id": "state-management-zustand",
+        "title": "Zustand",
+        "sectionId": "zustand"
+      },
+      {
+        "id": "state-management-jotai",
+        "title": "Jotai",
+        "sectionId": "jotai"
+      },
+      {
+        "id": "state-management-mobx",
+        "title": "MobX",
+        "sectionId": "mobx"
+      }
+    ]
+  },
+  {
+    "id": "routers",
+    "title": "Routers",
+    "children": [
+      {
+        "id": "routers-react-router",
+        "title": "React Router",
+        "sectionId": "react-router"
+      },
+      {
+        "id": "routers-tanstack-router",
+        "title": "Tanstack Router",
+        "sectionId": "tanstack-router"
+      }
+    ]
+  },
+  {
+    "id": "writing-css",
+    "title": "Writing CSS",
+    "children": [
+      {
+        "id": "writing-css-tailwind-css",
+        "title": "Tailwind CSS",
+        "sectionId": "tailwind-css"
+      },
+      {
+        "id": "writing-css-panda-css",
+        "title": "Panda CSS",
+        "sectionId": "panda-css"
+      },
+      {
+        "id": "writing-css-css-modules",
+        "title": "CSS Modules",
+        "sectionId": "css-modules"
+      }
+    ]
+  },
+  {
+    "id": "component-libraries",
+    "title": "Component / Libraries",
+    "children": [
+      {
+        "id": "component-libraries-material-ui",
+        "title": "Material UI",
+        "sectionId": "material-ui"
+      },
+      {
+        "id": "component-libraries-chakra-ui",
+        "title": "Chakra UI",
+        "sectionId": "chakra-ui"
+      },
+      {
+        "id": "component-libraries-shadcn-ui",
+        "title": "Shadcn UI",
+        "sectionId": "shadcn-ui"
+      }
+    ]
+  },
+  {
+    "id": "headless-component-libraries",
+    "title": "Headless Component Libraries",
+    "children": [
+      {
+        "id": "headless-component-libraries-radix-ui",
+        "title": "Radix UI",
+        "sectionId": "radix-ui"
+      },
+      {
+        "id": "headless-component-libraries-react-aria",
+        "title": "React Aria",
+        "sectionId": "react-aria"
+      },
+      {
+        "id": "headless-component-libraries-ark-ui",
+        "title": "Ark UI",
+        "sectionId": "ark-ui"
+      }
+    ]
+  },
+  {
+    "id": "api-calls",
+    "title": "API Calls",
+    "children": [
+      {
+        "id": "api-calls-graphql",
+        "title": "GraphQL",
+        "children": [
+          {
+            "id": "api-calls-graphql-apollo",
+            "title": "Apollo",
+            "sectionId": "apollo"
+          },
+          {
+            "id": "api-calls-graphql-relay",
+            "title": "Relay",
+            "sectionId": "relay"
+          },
+          {
+            "id": "api-calls-graphql-urql",
+            "title": "urql",
+            "sectionId": "urql"
+          }
+        ]
+      },
+      {
+        "id": "api-calls-rest",
+        "title": "REST",
+        "children": [
+          {
+            "id": "api-calls-rest-swr",
+            "title": "swr",
+            "sectionId": "swr"
+          },
+          {
+            "id": "api-calls-rest-react-query",
+            "title": "react-query",
+            "sectionId": "react-query"
+          },
+          {
+            "id": "api-calls-rest-axios",
+            "title": "Axios",
+            "sectionId": "axios"
+          },
+          {
+            "id": "api-calls-rest-rtk-query",
+            "title": "rtk-query",
+            "sectionId": "rtk-query"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "testing",
+    "title": "Testing",
+    "children": [
+      {
+        "id": "testing-jest",
+        "title": "Jest",
+        "sectionId": "jest"
+      },
+      {
+        "id": "testing-vitest",
+        "title": "Vitest",
+        "sectionId": "vitest"
+      },
+      {
+        "id": "testing-react-testing-library",
+        "title": "react-testing-library",
+        "sectionId": "react-testing-library"
+      },
+      {
+        "id": "testing-cypress",
+        "title": "Cypress",
+        "sectionId": "cypress"
+      },
+      {
+        "id": "testing-playwright",
+        "title": "Playwright",
+        "sectionId": "playwright"
+      }
+    ]
+  },
+  {
+    "id": "frameworks",
+    "title": "Frameworks",
+    "children": [
+      {
+        "id": "frameworks-nextjs",
+        "title": "Next.js",
+        "sectionId": "nextjs"
+      },
+      {
+        "id": "frameworks-astro",
+        "title": "Astro",
+        "sectionId": "astro"
+      },
+      {
+        "id": "frameworks-react-router",
+        "title": "react-router",
+        "sectionId": "react-router"
+      }
+    ]
+  },
+  {
+    "id": "forms",
+    "title": "Forms",
+    "children": [
+      {
+        "id": "forms-react-hook-form",
+        "title": "React Hook Form",
+        "sectionId": "react-hook-form"
+      },
+      {
+        "id": "forms-formik",
+        "title": "Formik",
+        "sectionId": "formik"
+      }
+    ]
+  },
+  {
+    "id": "types-validation",
+    "title": "Types & Validation",
+    "children": [
+      {
+        "id": "types-validation-typescript",
+        "title": "TypeScript",
+        "sectionId": "typescript"
+      },
+      {
+        "id": "types-validation-zod",
+        "title": "Zod",
+        "sectionId": "zod"
+      }
+    ]
+  },
+  {
+    "id": "advanced-topics",
+    "title": "Advanced Topics",
+    "children": [
+      {
+        "id": "advanced-topics-animation",
+        "title": "Animation",
+        "children": [
+          {
+            "id": "advanced-topics-animation-framer-motion",
+            "title": "Framer Motion",
+            "sectionId": "framer-motion"
+          },
+          {
+            "id": "advanced-topics-animation-react-spring",
+            "title": "react spring",
+            "sectionId": "react-spring"
+          },
+          {
+            "id": "advanced-topics-animation-gsock",
+            "title": "GSock",
+            "sectionId": "gsock"
+          }
+        ]
+      },
+      {
+        "id": "advanced-topics-server-apis",
+        "title": "Server APIs",
+        "sectionId": "server-apis"
+      },
+      {
+        "id": "advanced-topics-suspense",
+        "title": "Suspense",
+        "sectionId": "suspense"
+      },
+      {
+        "id": "advanced-topics-portals",
+        "title": "Portals",
+        "sectionId": "portals"
+      },
+      {
+        "id": "advanced-topics-error-boundaries",
+        "title": "Error Boundaries",
+        "sectionId": "error-boundaries"
       }
     ]
   }

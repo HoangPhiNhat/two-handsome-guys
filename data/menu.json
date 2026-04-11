@@ -17,6 +17,30 @@
       "color": "cyan",
       "menuPath": "data/menus/reactjs.json",
       "order": 2
+    },
+    {
+      "id": "typescript",
+      "title": "TypeScript",
+      "icon": "file-code",
+      "color": "blue",
+      "menuPath": "data/menus/typescript.json",
+      "order": 3
+    },
+    {
+      "id": "backend",
+      "title": "Backend Development",
+      "icon": "server",
+      "color": "green",
+      "menuPath": "data/menus/backend.json",
+      "order": 4
+    },
+    {
+      "id": "docker",
+      "title": "Docker",
+      "icon": "docker",
+      "color": "blue",
+      "menuPath": "data/menus/docker.json",
+      "order": 5
     }
   ]
 }

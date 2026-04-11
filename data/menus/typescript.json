@@ -1,0 +1,511 @@
+[
+  {
+    "id": "introduction-to-typescript",
+    "title": "Introduction to TypeScript",
+    "children": [
+      {
+        "id": "introduction-to-typescript-typescript-vs-javascript",
+        "title": "TypeScript vs JavaScript",
+        "sectionId": "typescript-vs-javascript"
+      },
+      {
+        "id": "introduction-to-typescript-ts-and-js-interoperability",
+        "title": "TS and JS Interoperability",
+        "sectionId": "ts-and-js-interoperability"
+      },
+      {
+        "id": "introduction-to-typescript-installation-and-configuration",
+        "title": "Installation and Configuration",
+        "children": [
+          {
+            "id": "introduction-to-typescript-installation-and-configuration-tsconfigjson",
+            "title": "tsconfig.json",
+            "sectionId": "tsconfigjson"
+          },
+          {
+            "id": "introduction-to-typescript-installation-and-configuration-compiler-options",
+            "title": "Compiler Options",
+            "sectionId": "compiler-options"
+          }
+        ]
+      },
+      {
+        "id": "introduction-to-typescript-running-typescript",
+        "title": "Running TypeScript",
+        "children": [
+          {
+            "id": "introduction-to-typescript-running-typescript-tsc",
+            "title": "tsc",
+            "sectionId": "tsc"
+          },
+          {
+            "id": "introduction-to-typescript-running-typescript-ts-node",
+            "title": "ts-node",
+            "sectionId": "ts-node"
+          },
+          {
+            "id": "introduction-to-typescript-running-typescript-ts-playground",
+            "title": "TS Playground",
+            "sectionId": "ts-playground"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "typescript-types",
+    "title": "TypeScript Types",
+    "children": [
+      {
+        "id": "typescript-types-primitive-types",
+        "title": "Primitive Types",
+        "children": [
+          {
+            "id": "typescript-types-primitive-types-boolean",
+            "title": "boolean",
+            "sectionId": "boolean"
+          },
+          {
+            "id": "typescript-types-primitive-types-number",
+            "title": "number",
+            "sectionId": "number"
+          },
+          {
+            "id": "typescript-types-primitive-types-string",
+            "title": "string",
+            "sectionId": "string"
+          },
+          {
+            "id": "typescript-types-primitive-types-void",
+            "title": "void",
+            "sectionId": "void"
+          },
+          {
+            "id": "typescript-types-primitive-types-undefined",
+            "title": "undefined",
+            "sectionId": "undefined"
+          },
+          {
+            "id": "typescript-types-primitive-types-null",
+            "title": "null",
+            "sectionId": "null"
+          }
+        ]
+      },
+      {
+        "id": "typescript-types-object-types",
+        "title": "Object Types",
+        "children": [
+          {
+            "id": "typescript-types-object-types-interface",
+            "title": "Interface",
+            "sectionId": "interface"
+          },
+          {
+            "id": "typescript-types-object-types-class",
+            "title": "Class",
+            "sectionId": "class"
+          },
+          {
+            "id": "typescript-types-object-types-enum",
+            "title": "Enum",
+            "sectionId": "enum"
+          },
+          {
+            "id": "typescript-types-object-types-array",
+            "title": "Array",
+            "sectionId": "array"
+          },
+          {
+            "id": "typescript-types-object-types-tuple",
+            "title": "Tuple",
+            "sectionId": "tuple"
+          }
+        ]
+      },
+      {
+        "id": "typescript-types-top-types",
+        "title": "Top Types",
+        "children": [
+          {
+            "id": "typescript-types-top-types-object",
+            "title": "Object",
+            "sectionId": "object"
+          },
+          {
+            "id": "typescript-types-top-types-unknown",
+            "title": "unknown",
+            "sectionId": "unknown"
+          },
+          {
+            "id": "typescript-types-top-types-any",
+            "title": "any",
+            "sectionId": "any"
+          }
+        ]
+      },
+      {
+        "id": "typescript-types-bottom-types",
+        "title": "Bottom Types",
+        "children": [
+          {
+            "id": "typescript-types-bottom-types-never",
+            "title": "never",
+            "sectionId": "never"
+          }
+        ]
+      },
+      {
+        "id": "typescript-types-assertions",
+        "title": "Assertions",
+        "children": [
+          {
+            "id": "typescript-types-assertions-as-const",
+            "title": "as const",
+            "sectionId": "as-const"
+          },
+          {
+            "id": "typescript-types-assertions-as-type",
+            "title": "as [type]",
+            "sectionId": "as-type"
+          },
+          {
+            "id": "typescript-types-assertions-as-any",
+            "title": "as any",
+            "sectionId": "as-any"
+          },
+          {
+            "id": "typescript-types-assertions-non-null-assertion",
+            "title": "Non-null Assertion",
+            "sectionId": "non-null-assertion"
+          },
+          {
+            "id": "typescript-types-assertions-satisfies-keyword",
+            "title": "satisfies keyword",
+            "sectionId": "satisfies-keyword"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "type-inference",
+    "title": "Type Inference",
+    "sectionId": "type-inference"
+  },
+  {
+    "id": "type-compatibility",
+    "title": "Type Compatibility",
+    "sectionId": "type-compatibility"
+  },
+  {
+    "id": "combining-types",
+    "title": "Combining Types",
+    "children": [
+      {
+        "id": "combining-types-union-types",
+        "title": "Union Types",
+        "sectionId": "union-types"
+      },
+      {
+        "id": "combining-types-intersection-types",
+        "title": "Intersection Types",
+        "sectionId": "intersection-types"
+      },
+      {
+        "id": "combining-types-type-aliases",
+        "title": "Type Aliases",
+        "sectionId": "type-aliases"
+      },
+      {
+        "id": "combining-types-keyof-operator",
+        "title": "keyof Operator",
+        "sectionId": "keyof-operator"
+      }
+    ]
+  },
+  {
+    "id": "type-guards-narrowing",
+    "title": "Type Guards / Narrowing",
+    "children": [
+      {
+        "id": "type-guards-narrowing-instanceof",
+        "title": "instanceof",
+        "sectionId": "instanceof"
+      },
+      {
+        "id": "type-guards-narrowing-typeof",
+        "title": "typeof",
+        "sectionId": "typeof"
+      },
+      {
+        "id": "type-guards-narrowing-equality",
+        "title": "Equality",
+        "sectionId": "equality"
+      },
+      {
+        "id": "type-guards-narrowing-truthiness",
+        "title": "Truthiness",
+        "sectionId": "truthiness"
+      },
+      {
+        "id": "type-guards-narrowing-type-predicates",
+        "title": "Type Predicates",
+        "sectionId": "type-predicates"
+      }
+    ]
+  },
+  {
+    "id": "typescript-functions",
+    "title": "TypeScript Functions",
+    "children": [
+      {
+        "id": "typescript-functions-typing-functions",
+        "title": "Typing Functions",
+        "sectionId": "typing-functions"
+      },
+      {
+        "id": "typescript-functions-function-overloading",
+        "title": "Function Overloading",
+        "sectionId": "function-overloading"
+      }
+    ]
+  },
+  {
+    "id": "typescript-interfaces",
+    "title": "TypeScript Interfaces",
+    "children": [
+      {
+        "id": "typescript-interfaces-types-vs-interfaces",
+        "title": "Types vs Interfaces",
+        "sectionId": "types-vs-interfaces"
+      },
+      {
+        "id": "typescript-interfaces-extending-interfaces",
+        "title": "Extending Interfaces",
+        "sectionId": "extending-interfaces"
+      },
+      {
+        "id": "typescript-interfaces-interface-declaration",
+        "title": "Interface Declaration",
+        "sectionId": "interface-declaration"
+      },
+      {
+        "id": "typescript-interfaces-hybrid-types",
+        "title": "Hybrid Types",
+        "sectionId": "hybrid-types"
+      }
+    ]
+  },
+  {
+    "id": "classes",
+    "title": "Classes",
+    "children": [
+      {
+        "id": "classes-constructor-params",
+        "title": "Constructor Params",
+        "sectionId": "constructor-params"
+      },
+      {
+        "id": "classes-constructor-overloading",
+        "title": "Constructor Overloading",
+        "sectionId": "constructor-overloading"
+      },
+      {
+        "id": "classes-access-modifiers",
+        "title": "Access Modifiers",
+        "sectionId": "access-modifiers"
+      },
+      {
+        "id": "classes-abstract-classes",
+        "title": "Abstract Classes",
+        "sectionId": "abstract-classes"
+      },
+      {
+        "id": "classes-inheritance-vs-polymorphism",
+        "title": "Inheritance vs Polymorphism",
+        "sectionId": "inheritance-vs-polymorphism"
+      },
+      {
+        "id": "classes-method-overriding",
+        "title": "Method Overriding",
+        "sectionId": "method-overriding"
+      }
+    ]
+  },
+  {
+    "id": "generics",
+    "title": "Generics",
+    "children": [
+      {
+        "id": "generics-generic-types",
+        "title": "Generic Types",
+        "sectionId": "generic-types"
+      },
+      {
+        "id": "generics-generic-constraints",
+        "title": "Generic Constraints",
+        "sectionId": "generic-constraints"
+      }
+    ]
+  },
+  {
+    "id": "decorators",
+    "title": "Decorators",
+    "sectionId": "decorators"
+  },
+  {
+    "id": "utility-types",
+    "title": "Utility Types",
+    "children": [
+      {
+        "id": "utility-types-partial",
+        "title": "Partial",
+        "sectionId": "partial"
+      },
+      {
+        "id": "utility-types-pick",
+        "title": "Pick",
+        "sectionId": "pick"
+      },
+      {
+        "id": "utility-types-omit",
+        "title": "Omit",
+        "sectionId": "omit"
+      },
+      {
+        "id": "utility-types-readonly",
+        "title": "Readonly",
+        "sectionId": "readonly"
+      },
+      {
+        "id": "utility-types-record",
+        "title": "Record",
+        "sectionId": "record"
+      },
+      {
+        "id": "utility-types-exclude",
+        "title": "Exclude",
+        "sectionId": "exclude"
+      },
+      {
+        "id": "utility-types-extract",
+        "title": "Extract",
+        "sectionId": "extract"
+      },
+      {
+        "id": "utility-types-nonnullable",
+        "title": "NonNullable",
+        "sectionId": "nonnullable"
+      },
+      {
+        "id": "utility-types-parameters",
+        "title": "Parameters",
+        "sectionId": "parameters"
+      },
+      {
+        "id": "utility-types-returntype",
+        "title": "ReturnType",
+        "sectionId": "returntype"
+      },
+      {
+        "id": "utility-types-instancetype",
+        "title": "InstanceType",
+        "sectionId": "instancetype"
+      },
+      {
+        "id": "utility-types-awaited",
+        "title": "Awaited",
+        "sectionId": "awaited"
+      }
+    ]
+  },
+  {
+    "id": "advanced-types",
+    "title": "Advanced Types",
+    "children": [
+      {
+        "id": "advanced-types-mapped-types",
+        "title": "Mapped Types",
+        "sectionId": "mapped-types"
+      },
+      {
+        "id": "advanced-types-conditional-types",
+        "title": "Conditional Types",
+        "sectionId": "conditional-types"
+      },
+      {
+        "id": "advanced-types-literal-types",
+        "title": "Literal Types",
+        "sectionId": "literal-types"
+      },
+      {
+        "id": "advanced-types-template-literal-types",
+        "title": "Template Literal Types",
+        "sectionId": "template-literal-types"
+      },
+      {
+        "id": "advanced-types-recursive-types",
+        "title": "Recursive Types",
+        "sectionId": "recursive-types"
+      }
+    ]
+  },
+  {
+    "id": "typescript-modules",
+    "title": "TypeScript Modules",
+    "children": [
+      {
+        "id": "typescript-modules-namespaces",
+        "title": "Namespaces",
+        "sectionId": "namespaces"
+      },
+      {
+        "id": "typescript-modules-ambient-modules",
+        "title": "Ambient Modules",
+        "sectionId": "ambient-modules"
+      },
+      {
+        "id": "typescript-modules-external-modules",
+        "title": "External Modules",
+        "sectionId": "external-modules"
+      },
+      {
+        "id": "typescript-modules-namespace-augmentation",
+        "title": "Namespace Augmentation",
+        "sectionId": "namespace-augmentation"
+      },
+      {
+        "id": "typescript-modules-global-augmentation",
+        "title": "Global Augmentation",
+        "sectionId": "global-augmentation"
+      }
+    ]
+  },
+  {
+    "id": "ecosystem",
+    "title": "Ecosystem",
+    "children": [
+      {
+        "id": "ecosystem-formatting",
+        "title": "Formatting",
+        "sectionId": "formatting"
+      },
+      {
+        "id": "ecosystem-linting",
+        "title": "Linting",
+        "sectionId": "linting"
+      },
+      {
+        "id": "ecosystem-useful-packages",
+        "title": "Useful Packages",
+        "sectionId": "useful-packages"
+      },
+      {
+        "id": "ecosystem-build-tools",
+        "title": "Build Tools",
+        "sectionId": "build-tools"
+      }
+    ]
+  }
+]
