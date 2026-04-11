@@ -1,0 +1,807 @@
+{
+  "meta": {
+    "id": "backend",
+    "title": "Backend Complete Guide",
+    "description": "Hướng dẫn chuyên sâu về backend",
+    "version": "1.0.0",
+    "lastUpdated": "2026-04-11",
+    "language": "vi"
+  },
+  "categories": [
+    {
+      "id": "internet",
+      "name": "Internet",
+      "description": "",
+      "icon": "folder",
+      "order": 1
+    },
+    {
+      "id": "relational-databases",
+      "name": "Relational Databases",
+      "description": "",
+      "icon": "folder",
+      "order": 2
+    },
+    {
+      "id": "learn-about-apis",
+      "name": "Learn about APIs",
+      "description": "",
+      "icon": "folder",
+      "order": 3
+    },
+    {
+      "id": "authentication",
+      "name": "Authentication",
+      "description": "",
+      "icon": "folder",
+      "order": 4
+    },
+    {
+      "id": "caching",
+      "name": "Caching",
+      "description": "",
+      "icon": "folder",
+      "order": 5
+    },
+    {
+      "id": "web-security",
+      "name": "Web Security",
+      "description": "",
+      "icon": "folder",
+      "order": 6
+    },
+    {
+      "id": "testing",
+      "name": "Testing",
+      "description": "",
+      "icon": "folder",
+      "order": 7
+    },
+    {
+      "id": "more-about-databases",
+      "name": "More about Databases",
+      "description": "",
+      "icon": "folder",
+      "order": 8
+    },
+    {
+      "id": "scaling-databases",
+      "name": "Scaling Databases",
+      "description": "",
+      "icon": "folder",
+      "order": 9
+    },
+    {
+      "id": "software-design-architecture",
+      "name": "Software Design & Architecture",
+      "description": "",
+      "icon": "folder",
+      "order": 10
+    },
+    {
+      "id": "containerization-vs-virtualization",
+      "name": "Containerization vs Virtualization",
+      "description": "",
+      "icon": "folder",
+      "order": 11
+    },
+    {
+      "id": "web-servers",
+      "name": "Web Servers",
+      "description": "",
+      "icon": "folder",
+      "order": 12
+    },
+    {
+      "id": "search-engines",
+      "name": "Search Engines",
+      "description": "",
+      "icon": "folder",
+      "order": 13
+    },
+    {
+      "id": "message-brokers",
+      "name": "Message Brokers",
+      "description": "",
+      "icon": "folder",
+      "order": 14
+    },
+    {
+      "id": "nosql-databases",
+      "name": "NoSQL Databases",
+      "description": "",
+      "icon": "folder",
+      "order": 15
+    },
+    {
+      "id": "real-time-data",
+      "name": "Real-Time Data",
+      "description": "",
+      "icon": "folder",
+      "order": 16
+    },
+    {
+      "id": "building-for-scale",
+      "name": "Building For Scale",
+      "description": "",
+      "icon": "folder",
+      "order": 17
+    },
+    {
+      "id": "observability",
+      "name": "Observability",
+      "description": "",
+      "icon": "folder",
+      "order": 18
+    },
+    {
+      "id": "basic-infrastructure-knowledge",
+      "name": "Basic Infrastructure Knowledge",
+      "description": "",
+      "icon": "folder",
+      "order": 19
+    }
+  ],
+  "sections": [
+    {
+      "id": "how-does-the-internet-work",
+      "categoryId": "internet",
+      "title": "How does the internet work?",
+      "path": "/content/backend/internet/how-does-the-internet-work.md"
+    },
+    {
+      "id": "what-is-http",
+      "categoryId": "internet",
+      "title": "What is HTTP?",
+      "path": "/content/backend/internet/what-is-http.md"
+    },
+    {
+      "id": "what-is-domain-name",
+      "categoryId": "internet",
+      "title": "What is Domain Name?",
+      "path": "/content/backend/internet/what-is-domain-name.md"
+    },
+    {
+      "id": "what-is-hosting",
+      "categoryId": "internet",
+      "title": "What is hosting?",
+      "path": "/content/backend/internet/what-is-hosting.md"
+    },
+    {
+      "id": "dns-and-how-it-works",
+      "categoryId": "internet",
+      "title": "DNS and how it works?",
+      "path": "/content/backend/internet/dns-and-how-it-works.md"
+    },
+    {
+      "id": "browsers-and-how-they-work",
+      "categoryId": "internet",
+      "title": "Browsers and how they work?",
+      "path": "/content/backend/internet/browsers-and-how-they-work.md"
+    },
+    {
+      "id": "postgresql",
+      "categoryId": "relational-databases",
+      "title": "PostgreSQL",
+      "path": "/content/backend/relational-databases/postgresql.md"
+    },
+    {
+      "id": "mysql",
+      "categoryId": "relational-databases",
+      "title": "MySQL",
+      "path": "/content/backend/relational-databases/mysql.md"
+    },
+    {
+      "id": "mariadb",
+      "categoryId": "relational-databases",
+      "title": "MariaDB",
+      "path": "/content/backend/relational-databases/mariadb.md"
+    },
+    {
+      "id": "ms-sql",
+      "categoryId": "relational-databases",
+      "title": "MS SQL",
+      "path": "/content/backend/relational-databases/ms-sql.md"
+    },
+    {
+      "id": "oracle",
+      "categoryId": "relational-databases",
+      "title": "Oracle",
+      "path": "/content/backend/relational-databases/oracle.md"
+    },
+    {
+      "id": "sqlite",
+      "categoryId": "relational-databases",
+      "title": "SQLite",
+      "path": "/content/backend/relational-databases/sqlite.md"
+    },
+    {
+      "id": "rest",
+      "categoryId": "learn-about-apis",
+      "title": "REST",
+      "path": "/content/backend/learn-about-apis/rest.md"
+    },
+    {
+      "id": "json-apis",
+      "categoryId": "learn-about-apis",
+      "title": "JSON APIs",
+      "path": "/content/backend/learn-about-apis/json-apis.md"
+    },
+    {
+      "id": "soap",
+      "categoryId": "learn-about-apis",
+      "title": "SOAP",
+      "path": "/content/backend/learn-about-apis/soap.md"
+    },
+    {
+      "id": "grpc",
+      "categoryId": "learn-about-apis",
+      "title": "gRPC",
+      "path": "/content/backend/learn-about-apis/grpc.md"
+    },
+    {
+      "id": "graphql",
+      "categoryId": "learn-about-apis",
+      "title": "GraphQL",
+      "path": "/content/backend/learn-about-apis/graphql.md"
+    },
+    {
+      "id": "hateoas",
+      "categoryId": "learn-about-apis",
+      "title": "HATEOAS",
+      "path": "/content/backend/learn-about-apis/hateoas.md"
+    },
+    {
+      "id": "open-api-specs",
+      "categoryId": "learn-about-apis",
+      "title": "Open API Specs",
+      "path": "/content/backend/learn-about-apis/open-api-specs.md"
+    },
+    {
+      "id": "jwt",
+      "categoryId": "authentication",
+      "title": "JWT",
+      "path": "/content/backend/authentication/jwt.md"
+    },
+    {
+      "id": "basic-authentication",
+      "categoryId": "authentication",
+      "title": "Basic Authentication",
+      "path": "/content/backend/authentication/basic-authentication.md"
+    },
+    {
+      "id": "token-authentication",
+      "categoryId": "authentication",
+      "title": "Token Authentication",
+      "path": "/content/backend/authentication/token-authentication.md"
+    },
+    {
+      "id": "cookie-based-auth",
+      "categoryId": "authentication",
+      "title": "Cookie Based Auth",
+      "path": "/content/backend/authentication/cookie-based-auth.md"
+    },
+    {
+      "id": "oauth",
+      "categoryId": "authentication",
+      "title": "OAuth",
+      "path": "/content/backend/authentication/oauth.md"
+    },
+    {
+      "id": "openid",
+      "categoryId": "authentication",
+      "title": "OpenID",
+      "path": "/content/backend/authentication/openid.md"
+    },
+    {
+      "id": "saml",
+      "categoryId": "authentication",
+      "title": "SAML",
+      "path": "/content/backend/authentication/saml.md"
+    },
+    {
+      "id": "server-side",
+      "categoryId": "caching",
+      "title": "Server Side",
+      "path": "/content/backend/caching/server-side.md"
+    },
+    {
+      "id": "client-side",
+      "categoryId": "caching",
+      "title": "Client Side",
+      "path": "/content/backend/caching/client-side.md"
+    },
+    {
+      "id": "cdn",
+      "categoryId": "caching",
+      "title": "CDN",
+      "path": "/content/backend/caching/cdn.md"
+    },
+    {
+      "id": "redis",
+      "categoryId": "caching",
+      "title": "Redis",
+      "path": "/content/backend/caching/redis.md"
+    },
+    {
+      "id": "memcached",
+      "categoryId": "caching",
+      "title": "Memcached",
+      "path": "/content/backend/caching/memcached.md"
+    },
+    {
+      "id": "md5",
+      "categoryId": "web-security",
+      "title": "MD5",
+      "path": "/content/backend/web-security/md5.md"
+    },
+    {
+      "id": "sha",
+      "categoryId": "web-security",
+      "title": "SHA",
+      "path": "/content/backend/web-security/sha.md"
+    },
+    {
+      "id": "scrypt",
+      "categoryId": "web-security",
+      "title": "scrypt",
+      "path": "/content/backend/web-security/scrypt.md"
+    },
+    {
+      "id": "bcrypt",
+      "categoryId": "web-security",
+      "title": "bcrypt",
+      "path": "/content/backend/web-security/bcrypt.md"
+    },
+    {
+      "id": "https",
+      "categoryId": "web-security",
+      "title": "HTTPS",
+      "path": "/content/backend/web-security/https.md"
+    },
+    {
+      "id": "owasp-risks",
+      "categoryId": "web-security",
+      "title": "OWASP Risks",
+      "path": "/content/backend/web-security/owasp-risks.md"
+    },
+    {
+      "id": "ssltls",
+      "categoryId": "web-security",
+      "title": "SSL/TLS",
+      "path": "/content/backend/web-security/ssltls.md"
+    },
+    {
+      "id": "cors",
+      "categoryId": "web-security",
+      "title": "CORS",
+      "path": "/content/backend/web-security/cors.md"
+    },
+    {
+      "id": "csp",
+      "categoryId": "web-security",
+      "title": "CSP",
+      "path": "/content/backend/web-security/csp.md"
+    },
+    {
+      "id": "server-security",
+      "categoryId": "web-security",
+      "title": "Server Security",
+      "path": "/content/backend/web-security/server-security.md"
+    },
+    {
+      "id": "api-security-best-practices",
+      "categoryId": "web-security",
+      "title": "API Security Best Practices",
+      "path": "/content/backend/web-security/api-security-best-practices.md"
+    },
+    {
+      "id": "unit-testing",
+      "categoryId": "testing",
+      "title": "Unit Testing",
+      "path": "/content/backend/testing/unit-testing.md"
+    },
+    {
+      "id": "integration-testing",
+      "categoryId": "testing",
+      "title": "Integration Testing",
+      "path": "/content/backend/testing/integration-testing.md"
+    },
+    {
+      "id": "functional-testing",
+      "categoryId": "testing",
+      "title": "Functional Testing",
+      "path": "/content/backend/testing/functional-testing.md"
+    },
+    {
+      "id": "ci-cd",
+      "categoryId": "testing",
+      "title": "CI / CD",
+      "path": "/content/backend/testing/ci-cd.md"
+    },
+    {
+      "id": "orms",
+      "categoryId": "more-about-databases",
+      "title": "ORMs",
+      "path": "/content/backend/more-about-databases/orms.md"
+    },
+    {
+      "id": "acid",
+      "categoryId": "more-about-databases",
+      "title": "ACID",
+      "path": "/content/backend/more-about-databases/acid.md"
+    },
+    {
+      "id": "transactions",
+      "categoryId": "more-about-databases",
+      "title": "Transactions",
+      "path": "/content/backend/more-about-databases/transactions.md"
+    },
+    {
+      "id": "n1-problem",
+      "categoryId": "more-about-databases",
+      "title": "N+1 Problem",
+      "path": "/content/backend/more-about-databases/n1-problem.md"
+    },
+    {
+      "id": "normalization",
+      "categoryId": "more-about-databases",
+      "title": "Normalization",
+      "path": "/content/backend/more-about-databases/normalization.md"
+    },
+    {
+      "id": "failure-modes",
+      "categoryId": "more-about-databases",
+      "title": "Failure Modes",
+      "path": "/content/backend/more-about-databases/failure-modes.md"
+    },
+    {
+      "id": "profiling-perfor",
+      "categoryId": "more-about-databases",
+      "title": "Profiling Perfor.",
+      "path": "/content/backend/more-about-databases/profiling-perfor.md"
+    },
+    {
+      "id": "migrations",
+      "categoryId": "more-about-databases",
+      "title": "Migrations",
+      "path": "/content/backend/more-about-databases/migrations.md"
+    },
+    {
+      "id": "database-indexes",
+      "categoryId": "scaling-databases",
+      "title": "Database Indexes",
+      "path": "/content/backend/scaling-databases/database-indexes.md"
+    },
+    {
+      "id": "data-replication",
+      "categoryId": "scaling-databases",
+      "title": "Data Replication",
+      "path": "/content/backend/scaling-databases/data-replication.md"
+    },
+    {
+      "id": "sharding-strategies",
+      "categoryId": "scaling-databases",
+      "title": "Sharding Strategies",
+      "path": "/content/backend/scaling-databases/sharding-strategies.md"
+    },
+    {
+      "id": "cap-theorem",
+      "categoryId": "scaling-databases",
+      "title": "CAP Theorem",
+      "path": "/content/backend/scaling-databases/cap-theorem.md"
+    },
+    {
+      "id": "gof-design-patterns",
+      "categoryId": "software-design-architecture",
+      "title": "GOF Design Patterns",
+      "path": "/content/backend/software-design-architecture/gof-design-patterns.md"
+    },
+    {
+      "id": "domain-driven-design",
+      "categoryId": "software-design-architecture",
+      "title": "Domain Driven Design",
+      "path": "/content/backend/software-design-architecture/domain-driven-design.md"
+    },
+    {
+      "id": "test-driven-development",
+      "categoryId": "software-design-architecture",
+      "title": "Test Driven Development",
+      "path": "/content/backend/software-design-architecture/test-driven-development.md"
+    },
+    {
+      "id": "cqrs",
+      "categoryId": "software-design-architecture",
+      "title": "CQRS",
+      "path": "/content/backend/software-design-architecture/cqrs.md"
+    },
+    {
+      "id": "event-sourcing",
+      "categoryId": "software-design-architecture",
+      "title": "Event Sourcing",
+      "path": "/content/backend/software-design-architecture/event-sourcing.md"
+    },
+    {
+      "id": "monolithic-apps",
+      "categoryId": "software-design-architecture",
+      "title": "Monolithic Apps",
+      "path": "/content/backend/software-design-architecture/monolithic-apps.md"
+    },
+    {
+      "id": "microservices",
+      "categoryId": "software-design-architecture",
+      "title": "Microservices",
+      "path": "/content/backend/software-design-architecture/microservices.md"
+    },
+    {
+      "id": "soa",
+      "categoryId": "software-design-architecture",
+      "title": "SOA",
+      "path": "/content/backend/software-design-architecture/soa.md"
+    },
+    {
+      "id": "serverless",
+      "categoryId": "software-design-architecture",
+      "title": "Serverless",
+      "path": "/content/backend/software-design-architecture/serverless.md"
+    },
+    {
+      "id": "service-mesh",
+      "categoryId": "software-design-architecture",
+      "title": "Service Mesh",
+      "path": "/content/backend/software-design-architecture/service-mesh.md"
+    },
+    {
+      "id": "twelve-factor-apps",
+      "categoryId": "software-design-architecture",
+      "title": "Twelve Factor Apps",
+      "path": "/content/backend/software-design-architecture/twelve-factor-apps.md"
+    },
+    {
+      "id": "docker",
+      "categoryId": "containerization-vs-virtualization",
+      "title": "Docker",
+      "path": "/content/backend/containerization-vs-virtualization/docker.md"
+    },
+    {
+      "id": "lxc",
+      "categoryId": "containerization-vs-virtualization",
+      "title": "LXC",
+      "path": "/content/backend/containerization-vs-virtualization/lxc.md"
+    },
+    {
+      "id": "kubernetes",
+      "categoryId": "containerization-vs-virtualization",
+      "title": "Kubernetes",
+      "path": "/content/backend/containerization-vs-virtualization/kubernetes.md"
+    },
+    {
+      "id": "nginx",
+      "categoryId": "web-servers",
+      "title": "Nginx",
+      "path": "/content/backend/web-servers/nginx.md"
+    },
+    {
+      "id": "apache",
+      "categoryId": "web-servers",
+      "title": "Apache",
+      "path": "/content/backend/web-servers/apache.md"
+    },
+    {
+      "id": "caddy",
+      "categoryId": "web-servers",
+      "title": "Caddy",
+      "path": "/content/backend/web-servers/caddy.md"
+    },
+    {
+      "id": "ms-iis",
+      "categoryId": "web-servers",
+      "title": "MS IIS",
+      "path": "/content/backend/web-servers/ms-iis.md"
+    },
+    {
+      "id": "elasticsearch",
+      "categoryId": "search-engines",
+      "title": "Elasticsearch",
+      "path": "/content/backend/search-engines/elasticsearch.md"
+    },
+    {
+      "id": "solr",
+      "categoryId": "search-engines",
+      "title": "Solr",
+      "path": "/content/backend/search-engines/solr.md"
+    },
+    {
+      "id": "rabbitmq",
+      "categoryId": "message-brokers",
+      "title": "RabbitMQ",
+      "path": "/content/backend/message-brokers/rabbitmq.md"
+    },
+    {
+      "id": "kafka",
+      "categoryId": "message-brokers",
+      "title": "Kafka",
+      "path": "/content/backend/message-brokers/kafka.md"
+    },
+    {
+      "id": "mongodb",
+      "categoryId": "nosql-databases",
+      "title": "MongoDB",
+      "path": "/content/backend/nosql-databases/mongodb.md"
+    },
+    {
+      "id": "couchdb",
+      "categoryId": "nosql-databases",
+      "title": "CouchDB",
+      "path": "/content/backend/nosql-databases/couchdb.md"
+    },
+    {
+      "id": "redis",
+      "categoryId": "nosql-databases",
+      "title": "Redis",
+      "path": "/content/backend/nosql-databases/redis.md"
+    },
+    {
+      "id": "dynamodb",
+      "categoryId": "nosql-databases",
+      "title": "DynamoDB",
+      "path": "/content/backend/nosql-databases/dynamodb.md"
+    },
+    {
+      "id": "firebase",
+      "categoryId": "nosql-databases",
+      "title": "Firebase",
+      "path": "/content/backend/nosql-databases/firebase.md"
+    },
+    {
+      "id": "rethinkdb",
+      "categoryId": "nosql-databases",
+      "title": "RethinkDB",
+      "path": "/content/backend/nosql-databases/rethinkdb.md"
+    },
+    {
+      "id": "influx-db",
+      "categoryId": "nosql-databases",
+      "title": "Influx DB",
+      "path": "/content/backend/nosql-databases/influx-db.md"
+    },
+    {
+      "id": "timescale",
+      "categoryId": "nosql-databases",
+      "title": "TimeScale",
+      "path": "/content/backend/nosql-databases/timescale.md"
+    },
+    {
+      "id": "cassandra",
+      "categoryId": "nosql-databases",
+      "title": "Cassandra",
+      "path": "/content/backend/nosql-databases/cassandra.md"
+    },
+    {
+      "id": "base",
+      "categoryId": "nosql-databases",
+      "title": "Base",
+      "path": "/content/backend/nosql-databases/base.md"
+    },
+    {
+      "id": "neo4j",
+      "categoryId": "nosql-databases",
+      "title": "Neo4j",
+      "path": "/content/backend/nosql-databases/neo4j.md"
+    },
+    {
+      "id": "aws-neptune",
+      "categoryId": "nosql-databases",
+      "title": "AWS Neptune",
+      "path": "/content/backend/nosql-databases/aws-neptune.md"
+    },
+    {
+      "id": "websockets",
+      "categoryId": "real-time-data",
+      "title": "WebSockets",
+      "path": "/content/backend/real-time-data/websockets.md"
+    },
+    {
+      "id": "server-sent-events",
+      "categoryId": "real-time-data",
+      "title": "Server Sent Events",
+      "path": "/content/backend/real-time-data/server-sent-events.md"
+    },
+    {
+      "id": "long-polling",
+      "categoryId": "real-time-data",
+      "title": "Long Polling",
+      "path": "/content/backend/real-time-data/long-polling.md"
+    },
+    {
+      "id": "short-polling",
+      "categoryId": "real-time-data",
+      "title": "Short Polling",
+      "path": "/content/backend/real-time-data/short-polling.md"
+    },
+    {
+      "id": "graphql",
+      "categoryId": "real-time-data",
+      "title": "GraphQL",
+      "path": "/content/backend/real-time-data/graphql.md"
+    },
+    {
+      "id": "graceful-degradation",
+      "categoryId": "building-for-scale",
+      "title": "Graceful Degradation",
+      "path": "/content/backend/building-for-scale/graceful-degradation.md"
+    },
+    {
+      "id": "throttling",
+      "categoryId": "building-for-scale",
+      "title": "Throttling",
+      "path": "/content/backend/building-for-scale/throttling.md"
+    },
+    {
+      "id": "backpressure",
+      "categoryId": "building-for-scale",
+      "title": "Backpressure",
+      "path": "/content/backend/building-for-scale/backpressure.md"
+    },
+    {
+      "id": "loadshifting",
+      "categoryId": "building-for-scale",
+      "title": "Loadshifting",
+      "path": "/content/backend/building-for-scale/loadshifting.md"
+    },
+    {
+      "id": "circuit-breaker",
+      "categoryId": "building-for-scale",
+      "title": "Circuit Breaker",
+      "path": "/content/backend/building-for-scale/circuit-breaker.md"
+    },
+    {
+      "id": "migration-strategies",
+      "categoryId": "building-for-scale",
+      "title": "Migration Strategies",
+      "path": "/content/backend/building-for-scale/migration-strategies.md"
+    },
+    {
+      "id": "types-of-scaling",
+      "categoryId": "building-for-scale",
+      "title": "Types of Scaling",
+      "path": "/content/backend/building-for-scale/types-of-scaling.md"
+    },
+    {
+      "id": "difference-usage",
+      "categoryId": "observability",
+      "title": "Difference & Usage",
+      "path": "/content/backend/observability/difference-usage.md"
+    },
+    {
+      "id": "instrumentation",
+      "categoryId": "observability",
+      "title": "Instrumentation",
+      "path": "/content/backend/observability/instrumentation.md"
+    },
+    {
+      "id": "monitoring",
+      "categoryId": "observability",
+      "title": "Monitoring",
+      "path": "/content/backend/observability/monitoring.md"
+    },
+    {
+      "id": "telemetry",
+      "categoryId": "observability",
+      "title": "Telemetry",
+      "path": "/content/backend/observability/telemetry.md"
+    },
+    {
+      "id": "metrics-logging-and-other-observable-items",
+      "categoryId": "observability",
+      "title": "Metrics logging and other observable items...",
+      "path": "/content/backend/observability/metrics-logging-and-other-observable-items.md"
+    },
+    {
+      "id": "basic-infrastructure-knowledge",
+      "categoryId": "basic-infrastructure-knowledge",
+      "title": "Basic Infrastructure Knowledge",
+      "path": "/content/backend/basic-infrastructure-knowledge/basic-infrastructure-knowledge.md"
+    }
+  ]
+}
