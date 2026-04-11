@@ -1,0 +1,896 @@
+{
+  "generatedAt": "2026-04-11T08:24:23.803Z",
+  "itemCount": 89,
+  "items": [
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "what-is-javascript",
+      "title": "JavaScript là gì?",
+      "path": "/content/javascript/introduction/what-is-javascript.md",
+      "excerpt": "JavaScript là gì? JavaScript là ngôn ngữ lập trình động , thông dịch (chạy bởi engine như V8, SpiderMonkey), ban đầu được thiết kế để làm trang web tương tác trong trình duyệt. Ngày nay JavaScript còn chạy trên server (Node.js), thiết bị nh"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "history-of-javascript",
+      "title": "Lịch sử JavaScript",
+      "path": "/content/javascript/introduction/history-of-javascript.md",
+      "excerpt": "Lịch sử JavaScript Nguồn gốc 1995 : Brendan Eich tạo ra Mocha tại Netscape, sau đổi tên thành LiveScript rồi JavaScript (tên mang tính marketing, không liên quan trực tiếp đến Java). Mục tiêu ban đầu: thêm logic nhẹ vào trình duyệt, bổ sung"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "javascript-versions",
+      "title": "Phiên bản JavaScript (ES)",
+      "path": "/content/javascript/introduction/javascript-versions.md",
+      "excerpt": "Phiên bản JavaScript (ECMAScript) JavaScript trong thực tế tuân theo các bản đặc tả ECMAScript (thường gọi ES + năm). Cách đánh tên ES5 = ECMAScript 5 (2009). ES6 / ES2015 = bản lớn năm 2015. ES2016, ES2017, … = bản năm tương ứng (mô hình c"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "how-to-run-javascript",
+      "title": "Chạy JavaScript ở đâu?",
+      "path": "/content/javascript/introduction/how-to-run-javascript.md",
+      "excerpt": "Chạy JavaScript ở đâu? 1. Trình duyệt Nhúng file qua hoặc viết inline (ít khuyến nghị). DevTools → Console : chạy thử từng dòng, debug nhanh. 2. Node.js Cài , chạy: . Dùng cho công cụ build, server, script tự động. 3. REPL và playground khô"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "variable-declarations",
+      "title": "Khai báo biến (var, let, const)",
+      "path": "/content/javascript/all-about-variables/declarations.md",
+      "excerpt": "Variable Declarations (var, let, const) Trong JavaScript, có 3 cách để khai báo biến: , , và . Mỗi cách có phạm vi (scope) và cách hoạt động khác nhau. 1. — Cách cũ (ES5 trở về trước) Đặc điểm của : Function scoped : chỉ bị giới hạn trong h"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "hoisting",
+      "title": "Hoisting",
+      "path": "/content/javascript/all-about-variables/hoisting.md",
+      "excerpt": "Hoisting trong JavaScript Hoisting là hành vi mặc định của JavaScript, trong đó việc khai báo các biến và hàm được đưa lên đầu phạm vi (scope) hiện tại trước khi mã được thực thi. 1. Hoisting với Khi khai báo bằng , biến được \"nhấc\" lên đầu"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "variable-naming-rules",
+      "title": "Quy tắc đặt tên biến",
+      "path": "/content/javascript/all-about-variables/naming-rules.md",
+      "excerpt": "Quy tắc đặt tên biến trong JavaScript Ký tự hợp lệ Tên biến (identifier) có thể gồm chữ cái, chữ số, , . Không được bắt đầu bằng chữ số. Unicode được phép (ví dụ tên tiếng Việt không dấu hoặc dùng Unicode chuẩn), nhưng trong dự án thực tế t"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "variable-scopes",
+      "title": "Phạm vi biến (scope)",
+      "path": "/content/javascript/all-about-variables/scopes.md",
+      "excerpt": "Scope (Phạm vi) trong JavaScript Scope xác định khả năng truy cập (tầm nhìn) của các biến. JavaScript có 3 loại phạm vi chính: Global, Function, và Block. 1. Global Scope (Phạm vi toàn cục) Biến được khai báo bên ngoài bất kỳ hàm hay block "
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "primitive-types",
+      "title": "Kiểu nguyên thủy",
+      "path": "/content/javascript/data-types/primitive-types.md",
+      "excerpt": "Primitive Types (Các kiểu dữ liệu nguyên thủy) JavaScript có 7 kiểu dữ liệu nguyên thủy. Chúng được lưu trữ theo giá trị trên Stack. 1. String (Chuỗi) 2. Number (Số) JavaScript sử dụng chuẩn IEEE 754 để biểu diễn số (64 bit floating point)."
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "object",
+      "title": "Object",
+      "path": "/content/javascript/data-types/objects.md",
+      "excerpt": "Object trong JavaScript Object là kiểu dữ liệu tham chiếu, cho phép lưu trữ tập hợp các cặp key value. 1. Khai báo Object 2. Truy cập và Thao tác 3. Các phương thức hữu ích : Lấy danh sách các key. : Lấy danh sách các giá trị. : Lấy mảng cá"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "object-prototype",
+      "title": "Nguyên mẫu (prototype) của object",
+      "path": "/content/javascript/data-types/object-prototype.md",
+      "excerpt": "Nguyên mẫu (prototype) của object Trong JavaScript, hầu hết object được nối với một object khác gọi là prototype . Khi đọc thuộc tính mà object không có, engine tìm trên chuỗi prototype (prototype chain). và Chuẩn nội bộ là slot . là access"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "prototypal-inheritance",
+      "title": "Kế thừa theo prototype",
+      "path": "/content/javascript/data-types/prototypal-inheritance.md",
+      "excerpt": "Kế thừa theo prototype JavaScript dùng kế thừa dựa prototype , không phải kế thừa class kiểu Java cổ điển. ES6 chủ yếu là cú pháp đường (syntactic sugar) trên nền prototype. Chuỗi prototype Khi gọi , nếu không có, engine lần lượt tìm trên p"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "typeof-operator",
+      "title": "Toán tử typeof",
+      "path": "/content/javascript/data-types/typeof-operator.md",
+      "excerpt": "Toán tử typeof trả về chuỗi mô tả kiểu “thô” của toán hạng. Giới hạn → để kiểm tra null nên dùng . Phân biệt mảng và object thường: chính xác hơn . Tóm tắt hữu ích cho primitive và phân biệt , nhưng không đủ để phân loại chi tiết object; kế"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "built-in-objects",
+      "title": "Đối tượng built-in",
+      "path": "/content/javascript/data-types/built-in-objects.md",
+      "excerpt": "Đối tượng built in (tiêu biểu) JavaScript cung cấp nhiều constructor / namespace sẵn có trong môi trường chuẩn. Nhóm thường dùng Đối tượng / hàm Vai trò ngắn gọn Tạo object, / / , … Mảng, nhiều phương thức ( , ) , , Object bọc (wrapper) pri"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "type-conversion-vs-coercion",
+      "title": "Chuyển kiểu vs ép kiểu (coercion)",
+      "path": "/content/javascript/type-casting/conversion-vs-coercion.md",
+      "excerpt": "Chuyển kiểu (conversion) và ép kiểu (coercion) Khái niệm Chuyển kiểu tường minh (explicit conversion) : bạn chủ động gọi hàm hoặc toán tử để đổi kiểu — ví dụ , . Ép kiểu ngầm (implicit coercion) : engine tự đổi kiểu để thực hiện phép toán h"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "implicit-type-casting",
+      "title": "Ép kiểu ngầm định",
+      "path": "/content/javascript/type-casting/coercion.md",
+      "excerpt": "Ép kiểu (Type Casting / Coercion) Xem thêm bài Chuyển kiểu vs ép kiểu ( ) để phân biệt tường minh / ngầm định. 1. Ép kiểu tường minh (Explicit) 2. Ép kiểu ngầm định (Implicit) — Nguy hiểm! JavaScript đôi khi tự động chuyển đổi kiểu dữ liệu "
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "explicit-type-casting",
+      "title": "Ép kiểu tường minh",
+      "path": "/content/javascript/type-casting/coercion.md",
+      "excerpt": "Ép kiểu (Type Casting / Coercion) Xem thêm bài Chuyển kiểu vs ép kiểu ( ) để phân biệt tường minh / ngầm định. 1. Ép kiểu tường minh (Explicit) 2. Ép kiểu ngầm định (Implicit) — Nguy hiểm! JavaScript đôi khi tự động chuyển đổi kiểu dữ liệu "
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "map",
+      "title": "Map",
+      "path": "/content/javascript/data-structures/keyed-collections.md",
+      "excerpt": "Map và Set (ES6) 1. Map Map là tập hợp các cặp key value mà key có thể là bất kỳ kiểu dữ liệu nào (kể cả object). 2. Set Set là tập hợp các giá trị không trùng lặp (unique values). 3. WeakMap Key bắt buộc là object (không dùng primitive làm"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "weak-map",
+      "title": "WeakMap",
+      "path": "/content/javascript/data-structures/keyed-collections.md",
+      "excerpt": "Map và Set (ES6) 1. Map Map là tập hợp các cặp key value mà key có thể là bất kỳ kiểu dữ liệu nào (kể cả object). 2. Set Set là tập hợp các giá trị không trùng lặp (unique values). 3. WeakMap Key bắt buộc là object (không dùng primitive làm"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "set",
+      "title": "Set",
+      "path": "/content/javascript/data-structures/keyed-collections.md",
+      "excerpt": "Map và Set (ES6) 1. Map Map là tập hợp các cặp key value mà key có thể là bất kỳ kiểu dữ liệu nào (kể cả object). 2. Set Set là tập hợp các giá trị không trùng lặp (unique values). 3. WeakMap Key bắt buộc là object (không dùng primitive làm"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "weak-set",
+      "title": "WeakSet",
+      "path": "/content/javascript/data-structures/keyed-collections.md",
+      "excerpt": "Map và Set (ES6) 1. Map Map là tập hợp các cặp key value mà key có thể là bất kỳ kiểu dữ liệu nào (kể cả object). 2. Set Set là tập hợp các giá trị không trùng lặp (unique values). 3. WeakMap Key bắt buộc là object (không dùng primitive làm"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "typed-arrays",
+      "title": "Typed Arrays",
+      "path": "/content/javascript/data-structures/typed-arrays.md",
+      "excerpt": "Typed Arrays (mảng kiểu số) Typed arrays trong JavaScript là cách làm việc với vùng nhớ nhị phân (ArrayBuffer) qua các view như , , … — phù hợp WebGL, xử lý file nhị phân, socket, hiệu năng. ArrayBuffer và view Các kiểu view phổ biến , , , "
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "arrays",
+      "title": "Mảng (Array)",
+      "path": "/content/javascript/data-structures/arrays.md",
+      "excerpt": "Array (Mảng) trong JavaScript Mảng là một danh sách có thứ tự các giá trị. 1. Khởi tạo 2. Các phương thức thêm/xóa / : Thêm/xóa ở cuối. / : Thêm/xóa ở đầu. : Thêm/xóa tại vị trí bất kỳ. 3. Các phương thức duyệt mảng (ES6+) : Tạo mảng mới từ"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "json",
+      "title": "JSON",
+      "path": "/content/javascript/data-structures/json.md",
+      "excerpt": "JSON (JavaScript Object Notation) JSON là định dạng văn bản để trao đổi dữ liệu, tập con cú pháp object/array literal của JavaScript (nhưng không phải code JS đầy đủ). Quy tắc nhanh Chuỗi phải dùng dấu nháy kép . Không có trailing comma. Ki"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "loose-equality",
+      "title": "So sánh lỏng (==)",
+      "path": "/content/javascript/equality-comparisons/loose-equality.md",
+      "excerpt": "So sánh lỏng ( ) Toán tử dùng thuật toán Abstract Equality Comparison : nếu hai toán hạng khác kiểu , JavaScript có thể ép kiểu một hoặc hai bên rồi so sánh. Vì sao dễ gây lỗi? Quy tắc ép kiểu dài và có nhiều trường hợp biên — khó nhớ hết, "
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "strict-equality",
+      "title": "So sánh chặt ===",
+      "path": "/content/javascript/equality-comparisons/strict-equality.md",
+      "excerpt": "So sánh chặt ( ) Toán tử dùng Strict Equality Comparison : không ép kiểu . Hai giá trị bằng nhau khi cùng kiểu và cùng giá trị (theo quy tắc IEEE 754 cho , v.v.). và / không bằng chính nó với — dùng . phân biệt và , còn coi là . Khuyến nghị"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "objectis",
+      "title": "Object.is",
+      "path": "/content/javascript/equality-comparisons/object-is.md",
+      "excerpt": "Object.is so sánh hai giá trị giống trong hầu hết trường hợp, nhưng xử lý khác hai điểm: 1. được coi là bằng . 2. và được coi là khác nhau . Khi nào dùng? So sánh số học khi cần phân biệt (hiếm, ví dụ đồ họa / thư viện số). Kiểm tra mà khôn"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "islooselyequal",
+      "title": "Thuật toán IsLooselyEqual (==)",
+      "path": "/content/javascript/equality-comparisons/abstract-algorithms.md",
+      "excerpt": "Thuật toán so sánh trong đặc tả ECMAScript Tài liệu này tóm tắt ý tưởng các thuật toán nội bộ mà engine dùng khi so sánh. Chi tiết đầy đủ nằm trong đặc tả ECMAScript (bản mới nhất). IsLooselyEqual ( ) Nếu kiểu khác nhau, có thể ép kiểu một "
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "isstrictlyequal",
+      "title": "Thuật toán IsStrictlyEqual (===)",
+      "path": "/content/javascript/equality-comparisons/abstract-algorithms.md",
+      "excerpt": "Thuật toán so sánh trong đặc tả ECMAScript Tài liệu này tóm tắt ý tưởng các thuật toán nội bộ mà engine dùng khi so sánh. Chi tiết đầy đủ nằm trong đặc tả ECMAScript (bản mới nhất). IsLooselyEqual ( ) Nếu kiểu khác nhau, có thể ép kiểu một "
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "samevaluezero",
+      "title": "SameValueZero",
+      "path": "/content/javascript/equality-comparisons/abstract-algorithms.md",
+      "excerpt": "Thuật toán so sánh trong đặc tả ECMAScript Tài liệu này tóm tắt ý tưởng các thuật toán nội bộ mà engine dùng khi so sánh. Chi tiết đầy đủ nằm trong đặc tả ECMAScript (bản mới nhất). IsLooselyEqual ( ) Nếu kiểu khác nhau, có thể ép kiểu một "
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "samevalue",
+      "title": "SameValue",
+      "path": "/content/javascript/equality-comparisons/abstract-algorithms.md",
+      "excerpt": "Thuật toán so sánh trong đặc tả ECMAScript Tài liệu này tóm tắt ý tưởng các thuật toán nội bộ mà engine dùng khi so sánh. Chi tiết đầy đủ nằm trong đặc tả ECMAScript (bản mới nhất). IsLooselyEqual ( ) Nếu kiểu khác nhau, có thể ép kiểu một "
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "for",
+      "title": "Vòng lặp for",
+      "path": "/content/javascript/loops-and-iterations/for-loop.md",
+      "excerpt": "Vòng lặp cổ điển Ba phần: khởi tạo; điều kiện; bước nhảy. Phù hợp khi cần chỉ số hoặc số lần lặp cố định. và : duyệt giá trị của iterable (mảng, chuỗi, Map, Set, …). : duyệt tên khóa enumerable (thường dùng object; với mảng dễ lẫn chỉ số và"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "dowhile",
+      "title": "do…while",
+      "path": "/content/javascript/loops-and-iterations/dowhile-loop.md",
+      "excerpt": "Vòng lặp Thân vòng lặp chạy ít nhất một lần ; điều kiện kiểm tra sau mỗi lần lặp. Khác : có thể không vào thân nếu điều kiện ban đầu sai. : luôn chạy thân một lần rồi mới kiểm tra. Ví dụ ngữ cảnh Menu CLI, nhập liệu tối thiểu một lần, hoặc "
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "while",
+      "title": "while",
+      "path": "/content/javascript/loops-and-iterations/while-loop.md",
+      "excerpt": "Vòng lặp Lặp khi điều kiện còn đúng. Điều kiện kiểm tra trước mỗi lần thân vòng lặp. Khi nào dùng? Số lần lặp không biết trước (đọc stream, chờ điều kiện). Cần kiểm tra điều kiện trước khi chạy thân lần đầu. Cảnh báo Đảm bảo điều kiện tiến "
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "forin-loop",
+      "title": "for…in",
+      "path": "/content/javascript/loops-and-iterations/for-in.md",
+      "excerpt": "Vòng lặp duyệt qua các khóa enumerable của object (kể cả khóa kế thừa enumerable — trừ khi lọc bằng hoặc ). Với mảng Có thể lẫn thuộc tính thêm vào mảng hoặc prototype — thường không khuyến nghị thay / cổ điển cho mảng. Tóm tắt phù hợp obje"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "forof-loop",
+      "title": "for…of",
+      "path": "/content/javascript/loops-and-iterations/for-of.md",
+      "excerpt": "Vòng lặp duyệt các giá trị của iterable : , , , , , NodeList (môi trường DOM), v.v. Không dùng trực tiếp cho object thường Object plain không phải iterable mặc định. Dùng / / : Tóm tắt là cách đọc sạch iterable trong ES6+; kết hợp / như vòn"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "break-continue",
+      "title": "break và continue",
+      "path": "/content/javascript/loops-and-iterations/break-continue.md",
+      "excerpt": "và Thoát khỏi vòng lặp hoặc gần nhất. Bỏ qua phần còn lại của lần lặp hiện tại , chuyển sang lần kế. Nhãn (label) — nâng cao Có thể gắn nhãn cho vòng lặp và / tới nhãn đó (dùng ít, dễ khó đọc). Tóm tắt dừng hẳn vòng; sang vòng kế; nhãn chỉ "
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "ifelse",
+      "title": "if…else",
+      "path": "/content/javascript/control-flow/if-else.md",
+      "excerpt": "/ / Rẽ nhánh theo điều kiện boolean. Giá trị “truthy” / “falsy” Điều kiện được ép kiểu boolean. Các giá trị falsy : , , , , , . Toán tử gán trong — cẩn thận Tóm tắt Dùng cho nhánh rõ ràng; kết hợp và logic boolean để tránh ép kiểu không chủ"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "switch",
+      "title": "switch",
+      "path": "/content/javascript/control-flow/switch.md",
+      "excerpt": "So sánh một biểu thức với nhiều nhánh (so sánh Strict Equality ). là bắt buộc (hầu hết trường hợp) Thiếu sẽ rơi xuống ( ) case kế tiếp. Nhiều case chung Khi nào dùng vs ? Chuỗi giá trị rời rạc cùng một biến → đôi khi đọc tốt hơn. Điều kiện "
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "throw-statement",
+      "title": "throw",
+      "path": "/content/javascript/control-flow/exception-handling.md",
+      "excerpt": "Ngoại lệ: , / / , và Ném lỗi (bất kỳ giá trị nào, nhưng nên dùng hoặc subclass). / / nhận giá trị đã ném. chạy dù có return trong / (trừ khi process thoát bất thường). Đối tượng Error thông dụng Loại Khi nào dùng gợi ý Lỗi chung Sai kiểu / "
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "trycatchfinally",
+      "title": "try / catch / finally",
+      "path": "/content/javascript/control-flow/exception-handling.md",
+      "excerpt": "Ngoại lệ: , / / , và Ném lỗi (bất kỳ giá trị nào, nhưng nên dùng hoặc subclass). / / nhận giá trị đã ném. chạy dù có return trong / (trừ khi process thoát bất thường). Đối tượng Error thông dụng Loại Khi nào dùng gợi ý Lỗi chung Sai kiểu / "
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "error-objects",
+      "title": "Đối tượng Error",
+      "path": "/content/javascript/control-flow/exception-handling.md",
+      "excerpt": "Ngoại lệ: , / / , và Ném lỗi (bất kỳ giá trị nào, nhưng nên dùng hoặc subclass). / / nhận giá trị đã ném. chạy dù có return trong / (trừ khi process thoát bất thường). Đối tượng Error thông dụng Loại Khi nào dùng gợi ý Lỗi chung Sai kiểu / "
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "assignment-operators",
+      "title": "Toán tử gán",
+      "path": "/content/javascript/expressions-operators/assignment-operators.md",
+      "excerpt": "Toán tử gán Gán cơ bản Gán với bitwise / shift Destructuring (ES6) Chuỗi gán Tóm tắt Ngoài , các toán tử giúp viết ngắn; destructuring là công cụ mạnh để “bóc” mảng/object."
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "comparison-operators",
+      "title": "Toán tử so sánh",
+      "path": "/content/javascript/expressions-operators/comparison-operators.md",
+      "excerpt": "Toán tử so sánh So sánh giá trị Bằng / khác / : có ép kiểu (lỏng). / : không ép kiểu (khuyến nghị). Xem thêm các bài So sánh lỏng và So sánh chặt trong menu. Tóm tắt So sánh số và chuỗi theo quy tắc riêng; luôn ưu tiên cho logic ứng dụng."
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "arithmetic-operators",
+      "title": "Toán tử số học",
+      "path": "/content/javascript/expressions-operators/arithmetic-operators.md",
+      "excerpt": "Toán tử số học với chuỗi Nếu một vế là chuỗi, thường thành nối chuỗi (ép kiểu vế kia sang string). Số học số thực Tóm tắt , , , , , phục vụ tính toán; cẩn trọng với kiểu hỗn hợp và lỗi dấu phẩy động."
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "bitwise-operators",
+      "title": "Toán tử bitwise",
+      "path": "/content/javascript/expressions-operators/bitwise-operators.md",
+      "excerpt": "Toán tử bitwise Thao tác trên bit của số nguyên 32 bit (bên trong engine chuyển toán hạng sang Int32). Khi nào dùng? Tối ưu hiệu năng trong thuật toán đặc thù, cờ (flags), màu, mã hóa nhẹ. Trong ứng dụng web thông thường ít gặp ; đọc kỹ trư"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "logical-operators",
+      "title": "Toán tử logic",
+      "path": "/content/javascript/expressions-operators/logical-operators.md",
+      "excerpt": "Toán tử logic , , Ngắn mạch (short circuit) : nếu falsy → trả , không tính . : nếu truthy → trả , không tính . Nullish coalescing (ES2020) Chỉ thay thế khi hoặc , không coi hay là thiếu. Optional chaining (ES2020) Tóm tắt / vừa logic vừa ch"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "bigint-operators",
+      "title": "Toán tử BigInt",
+      "path": "/content/javascript/expressions-operators/bigint-operators.md",
+      "excerpt": "Toán tử với BigInt biểu diễn số nguyên lớn tùy ý (giới hạn bộ nhớ thực tế). Không trộn với Number (trừ một số trường hợp so sánh đặc biệt) So sánh Tóm tắt Dùng khi vượt quá ; cẩn thận không trộn kiểu và hiểu chia là số nguyên ."
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "string-operators",
+      "title": "Toán tử chuỗi",
+      "path": "/content/javascript/expressions-operators/string-operators.md",
+      "excerpt": "Toán tử chuỗi Nối chuỗi Template literal (ES6) So sánh chuỗi Toán tử , , , so theo thứ tự Unicode từng ký tự. Một số phương thức hữu ích Tóm tắt nối chuỗi; template literal giúp nhúng biểu thức gọn và dễ đọc hơn."
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "conditional-operators",
+      "title": "Toán tử điều kiện (ternary)",
+      "path": "/content/javascript/expressions-operators/conditional-operators.md",
+      "excerpt": "Toán tử điều kiện (ternary) Cú pháp: Lồng nhiều tầng — hạn chế So với Ternary phù hợp biểu thức ngắn; khối lệnh phức tạp nên dùng . Tóm tắt Ternary giúp gán/return một giá trị theo điều kiện gọn; tránh lồng sâu để không giảm khả năng đọc."
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "comma-operators",
+      "title": "Toán tử dấu phẩy",
+      "path": "/content/javascript/expressions-operators/comma-operators.md",
+      "excerpt": "Toán tử dấu phẩy Toán tử đánh giá lần lượt các biểu thức từ trái sang phải và trả về giá trị của biểu thức cuối . Trong vòng Ở đây dấu phẩy trong phần là cú pháp danh sách biểu thức , không nhất thiết là toán tử phẩy như trong . Cảnh báo Dù"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "unary-operators",
+      "title": "Toán tử một ngôi",
+      "path": "/content/javascript/expressions-operators/unary-operators.md",
+      "excerpt": "Toán tử một ngôi , (đổi dấu / chuyển số) / (tiền tố / hậu tố) phủ định logic (xóa thuộc tính object) Không dùng để “xóa biến” / . Đánh giá biểu thức, luôn trả — hiếm dùng. Tóm tắt Một ngôi thao tác trên một toán hạng; nắm khác nhau tiền tố/"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "default-params",
+      "title": "Tham số mặc định",
+      "path": "/content/javascript/functions/parameters.md",
+      "excerpt": "Tham số hàm: mặc định và rest Tham số mặc định (ES2015) Biểu thức mặc định chỉ tính khi tham số bị thiếu hoặc truyền . Rest parameters Gom các đối số còn lại thành mảng thật . Rest phải là tham số cuối trong danh sách. So với là object giốn"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "rest",
+      "title": "Rest parameters",
+      "path": "/content/javascript/functions/parameters.md",
+      "excerpt": "Tham số hàm: mặc định và rest Tham số mặc định (ES2015) Biểu thức mặc định chỉ tính khi tham số bị thiếu hoặc truyền . Rest parameters Gom các đối số còn lại thành mảng thật . Rest phải là tham số cuối trong danh sách. So với là object giốn"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "arrow-functions",
+      "title": "Arrow function",
+      "path": "/content/javascript/functions/arrow-functions.md",
+      "excerpt": "Arrow function Cú pháp ngắn gọn, không có riêng, riêng, và không dùng làm constructor ( ). từ phạm vi bên ngoài Không hoisting kiểu declaration Biểu thức gán vào biến — thứ tự khai báo quan trọng như biến thường. Tóm tắt Arrow phù hợp callb"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "iifes",
+      "title": "IIFE",
+      "path": "/content/javascript/functions/iife.md",
+      "excerpt": "IIFE (Immediately Invoked Function Expression) Hàm được định nghĩa và gọi ngay , tạo scope riêng (hữu ích trước khi có module/block scope rõ ràng). Tạo scope, tránh ô nhiễm global Pattern module UMD / legacy Nhiều thư viện cũ bọc toàn bộ fi"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "arguments-object",
+      "title": "Đối tượng arguments",
+      "path": "/content/javascript/functions/arguments-object.md",
+      "excerpt": "Đối tượng Trong hàm thường (không phải arrow), là object giống mảng chứa đối số đã truyền. Không phải mảng thật Rest thay thế Strict mode và tham số Một số hành vi legacy (như gán ảnh hưởng tham số tên) đã thay đổi theo strict mode — nên dù"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "scope-function-stack",
+      "title": "Scope và call stack",
+      "path": "/content/javascript/functions/scope-and-stack.md",
+      "excerpt": "Scope và call stack (tổng quan) Execution context Mỗi lần gọi hàm, engine tạo ngữ cảnh thực thi chứa biến cục bộ, , và tham chiếu tới outer environment (cho closure). Call stack Mỗi lần gọi hàm đẻ một frame lên stack. Hàm return → pop frame"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "built-in-functions",
+      "title": "Hàm built-in (parseInt, …)",
+      "path": "/content/javascript/functions/built-in-functions.md",
+      "excerpt": "Một số hàm built in thường gặp Chuyển kiểu / số Đánh giá (cẩn thận bảo mật) URI Thời gian Xem bài setTimeout / setInterval trong menu. Tóm tắt Built in giúp parse số, xử lý chuỗi URI, timer; tránh và luôn đọc doc cho hành vi edge case ( khô"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "recursion",
+      "title": "Đệ quy",
+      "path": "/content/javascript/functions/recursion.md",
+      "excerpt": "Đệ quy Hàm gọi lại chính nó với điều kiện dừng rõ ràng. Tail call optimization (TCO) Một số engine có thể tối ưu đệ quy đuôi trong strict mode theo đặc tả — thực tế hỗ trợ không đồng nhất ; đừng phụ thuộc nếu cần portable. Khi nào dùng? Cấu"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "lexical-scoping",
+      "title": "Lexical scoping",
+      "path": "/content/javascript/functions/lexical-scoping.md",
+      "excerpt": "Lexical scoping (phạm vi từ vựng) Phạm vi của biến được xác định bởi vị trí khai báo trong mã nguồn (thời điểm viết code), không phải nơi gọi hàm. Khác “dynamic scope” Dynamic scope (một số ngôn ngữ khác) nhìn nơi gọi — JavaScript không dùn"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "closures",
+      "title": "Closure",
+      "path": "/content/javascript/functions/closures.md",
+      "excerpt": "Closure Closure là hiện tượng hàm bên trong giữ tham chiếu tới biến của scope bên ngoài sau khi hàm ngoài đã return. Ứng dụng Factory, partial application. Ẩn trạng thái (private theo kiểu module). Callback giữ cấu hình. Cảnh báy bộ nhớ Clo"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "in-a-method",
+      "title": "this trong method",
+      "path": "/content/javascript/this-keyword/in-method.md",
+      "excerpt": "trong method Khi gọi , bên trong thường trỏ tới (trừ khi hàm là arrow — xem bài arrow). Mất khi trích xuất hàm Dùng , arrow bọc, hoặc . Tóm tắt Method gọi qua dấu chấm gắn với object bên trái; trích method ra biến cần ràng buộc lại ."
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "in-a-function",
+      "title": "this trong hàm thường",
+      "path": "/content/javascript/this-keyword/in-function.md",
+      "excerpt": "trong hàm thường (không phải method) Giá trị phụ thuộc cách gọi , không phụ thuộc nơi định nghĩa (khác arrow). Chế độ sloppy vs strict Gọi như method / / Xem nhóm Function Borrowing trong menu. Tóm tắt Hàm đứng một mình: strict → thường ; s"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "using-it-alone",
+      "title": "this đứng một mình",
+      "path": "/content/javascript/this-keyword/alone.md",
+      "excerpt": "“đứng một mình” (top level) Trong script thường (trình duyệt) Ở global scope , trỏ global object ( trên browser) trong một số ngữ cảnh, nhưng trong module hoặc strict IIFE có thể khác. Trong Node.js (CommonJS file) Top level thường là objec"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "in-event-handlers",
+      "title": "this trong xử lý sự kiện",
+      "path": "/content/javascript/this-keyword/in-event-handlers.md",
+      "excerpt": "trong xử lý sự kiện (DOM) Với listener đăng ký kiểu property hoặc với hàm thường , thường là element nhận sự kiện . Arrow function Arrow không có riêng — lấy từ scope bên ngoài (thường không phải element). Dùng nếu cần element ổn định trong"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "in-arrow-functions",
+      "title": "this trong arrow function",
+      "path": "/content/javascript/this-keyword/in-arrow-functions.md",
+      "excerpt": "trong arrow function Arrow function không tạo riêng; được lấy từ scope léxical bao quanh (thường là class hoặc hàm ngoài). Không dùng làm method cần động Dùng method shorthand thay vì arrow. Tóm tắt Arrow giữ từ bên ngoài — tốt cho callback"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "call",
+      "title": "Function.prototype.call",
+      "path": "/content/javascript/function-borrowing/explicit-binding.md",
+      "excerpt": "Ràng buộc tường minh: , , Gọi hàm với và đối số lẻ. Giống nhưng đối số sau là mảng . Trả về hàm mới với cố định (và có thể partial args). So sánh nhanh API Gọi ngay Đối số Có Danh sách lẻ Có Mảng Không Trả hàm mới Tóm tắt Ba API đều điều kh"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "apply",
+      "title": "Function.prototype.apply",
+      "path": "/content/javascript/function-borrowing/explicit-binding.md",
+      "excerpt": "Ràng buộc tường minh: , , Gọi hàm với và đối số lẻ. Giống nhưng đối số sau là mảng . Trả về hàm mới với cố định (và có thể partial args). So sánh nhanh API Gọi ngay Đối số Có Danh sách lẻ Có Mảng Không Trả hàm mới Tóm tắt Ba API đều điều kh"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "bind",
+      "title": "Function.prototype.bind",
+      "path": "/content/javascript/function-borrowing/explicit-binding.md",
+      "excerpt": "Ràng buộc tường minh: , , Gọi hàm với và đối số lẻ. Giống nhưng đối số sau là mảng . Trả về hàm mới với cố định (và có thể partial args). So sánh nhanh API Gọi ngay Đối số Có Danh sách lẻ Có Mảng Không Trả hàm mới Tóm tắt Ba API đều điều kh"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "strict-mode",
+      "title": "Strict mode",
+      "path": "/content/javascript/strict-mode.md",
+      "excerpt": "Strict mode ( ) Strict mode là chế độ chặt chẽ hơn giúp bắt lỗi sớm và vô hiệu hóa một số hành vi nguy hiểm. Bật strict Hoặc đặt ở đầu hàm / module (module ESM mặc định strict). Một số thay đổi tiêu biểu Gán biến chưa khai báo → ReferenceEr"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "event-loop",
+      "title": "Event loop",
+      "path": "/content/javascript/async-javascript/event-loop.md",
+      "excerpt": "Event loop (vòng lặp sự kiện) JavaScript đơn luồng : một call stack thực thi đồng bộ. Tác vụ bất đồng bộ (timer, I/O, Promise) được đưa ra khối bên ngoài (Web APIs / Node libuv), kết quả đưa vào hàng đợi rồi được kéo về stack khi stack trốn"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "settimeout",
+      "title": "setTimeout",
+      "path": "/content/javascript/async-javascript/timers.md",
+      "excerpt": "và Gọi hàm một lần sau ít nhất ms (không đảm bảo chính xác — phụ thuộc queue và main thread bận). Gọi lặp lại theo khoảng thời gian; cẩn thận chồng chất nếu callback chạy lâu hơn interval. 0 không chạy ngay — xếp sau khi đồng bộ hiện tại xo"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "setinterval",
+      "title": "setInterval",
+      "path": "/content/javascript/async-javascript/timers.md",
+      "excerpt": "và Gọi hàm một lần sau ít nhất ms (không đảm bảo chính xác — phụ thuộc queue và main thread bận). Gọi lặp lại theo khoảng thời gian; cẩn thận chồng chất nếu callback chạy lâu hơn interval. 0 không chạy ngay — xếp sau khi đồng bộ hiện tại xo"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "callbacks",
+      "title": "Callback",
+      "path": "/content/javascript/async-javascript/callbacks.md",
+      "excerpt": "Callback (hàm gọi lại) Callback là hàm truyền cho API để được gọi sau khi tác vụ xong (I/O, timer, sự kiện). Lỗi và style Convention Node style: — kiểm tra trước. Callback lồng nhau nhiều tầng khó đọc → xem Callback hell . Tóm tắt Callback "
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "promises",
+      "title": "Promise",
+      "path": "/content/javascript/async-javascript/promises.md",
+      "excerpt": "Promise đại diện giá trị có thể chưa có nhưng sẽ hoàn thành (fulfill) hoặc thất bại (reject) sau này. Chuỗi trả Promise mới; giá trị return trong được bọc thành Promise fulfilled. / / Lưu ý Luôn return Promise trong nếu cần nối async bên tr"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "callback-hell",
+      "title": "Callback hell",
+      "path": "/content/javascript/async-javascript/callback-hell.md",
+      "excerpt": "Callback hell (địa ngục callback) “Callback hell” là tình trạng lồng callback nhiều cấp, khó đọc, khó bắt lỗi và khó tái sử dụng. Cách giảm Đặt tên hàm, tách bước nhỏ. Dùng Promise và / . Thư viện flow control (hiếm cần nếu đã dùng Promise "
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "asyncawait",
+      "title": "async / await",
+      "path": "/content/javascript/async-javascript/async-await.md",
+      "excerpt": "/ luôn trả Promise . tạm dừng hàm async cho đến khi Promise settle (không chặn main thread — giải phóng để chạy tác vụ khác). Bắt lỗi Hoặc trên Promise trả về. trong vòng lặp + → tuần tự. + → song song khi các tác vụ độc lập. Tóm tắt / là c"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "fetch",
+      "title": "Fetch API",
+      "path": "/content/javascript/working-with-apis/fetch.md",
+      "excerpt": "Fetch API là API trình duyệt (và có trên Node hiện đại) để HTTP — trả về Promise . Lưu ý không reject chỉ vì status 4xx/5xx — cần kiểm tra . CORS và cookie ( ) phụ thuộc server và tùy chọn request. Hủy request: . Tóm tắt + / là stack phổ bi"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "xmlhttprequest",
+      "title": "XMLHttpRequest",
+      "path": "/content/javascript/working-with-apis/xmlhttprequest.md",
+      "excerpt": "XMLHttpRequest (XHR) API cũ để HTTP từ trình duyệt, vẫn gặp trong code legacy. Ngày nay ưu tiên hoặc thư viện (axios, ky, …). Đặc điểm Dựa sự kiện ( , , ). Hỗ trợ đồng bộ (ít dùng) và không đồng bộ. Verbose hơn nhưng kiểm soát chi tiết prog"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "dom-apis",
+      "title": "DOM APIs",
+      "path": "/content/javascript/dom-apis.md",
+      "excerpt": "DOM APIs (trình duyệt) DOM (Document Object Model) là cây object biểu diễn HTML; DOM API cho phép JavaScript đọc/ghi cấu trúc, style, và sự kiện. Chọn phần tử Thao tác Tạo và gắn node Hiệu năng Thao tác DOM nhiều có thể chậm — gom thay đổi,"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "basics",
+      "categoryTitle": "Cơ Bản",
+      "sectionId": "classes",
+      "title": "Class (ES6)",
+      "path": "/content/javascript/classes.md",
+      "excerpt": "Class (ES2015+) là cú pháp đường trên prototype; không tạo mô hình class kiểu Java mới. Trường lớp (field) và private (gần đây) Tóm tắt Class giúp tổ chức OOP quen thuộc; bên dưới vẫn là prototype và . Kết hợp / cho kế thừa."
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "iterators-and-generators",
+      "title": "Iterator và Generator",
+      "path": "/content/javascript/iterators-and-generators.md",
+      "excerpt": "Iterator và Generator Iterable và Iterator Iterable là object có phương thức trả về iterator (có trả ). dùng protocol này. Generator function Ứng dụng Lazy sequence, pipeline dữ liệu lớn. Async generator ( ) cho stream (nâng cao). Tóm tắt I"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "commonjs",
+      "title": "CommonJS",
+      "path": "/content/javascript/modules/commonjs.md",
+      "excerpt": "CommonJS (Node.js truyền thống) đồng bộ (theo mô hình Node) và / . Đặc điểm Một file = một module. Cache module theo đường dẫn đã resolve. Dùng rộng rãi trong npm package và Node cũ. Tương tác ESM Node hỗ trợ cả hai; trộn cần quy tắc động h"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "esm",
+      "title": "ES Modules (ESM)",
+      "path": "/content/javascript/modules/esm.md",
+      "excerpt": "ES Modules (ESM) Cú pháp chuẩn: / , static ở top level (trừ động). Trên trình duyệt Module tự động strict mode , scope riêng, defer. Trên Node File hoặc trong . Đường dẫn import thường cần đuôi rõ ràng. Tóm tắt ESM là hướng chuẩn cho front "
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "memory-lifecycle",
+      "title": "Vòng đời bộ nhớ",
+      "path": "/content/javascript/memory/memory-lifecycle.md",
+      "excerpt": "Vòng đời bộ nhớ (tổng quan) Ba giai đoạn 1. Cấp phát : khai báo biến, tạo object, closure giữ scope. 2. Sử dụng : đọc/ghi tham chiếu. 3. Giải phóng : khi không còn reachable từ gốc (global, stack, closure đang sống), GC có thể thu hồi. Stac"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "garbage-collection",
+      "title": "Garbage collection",
+      "path": "/content/javascript/memory/garbage-collection.md",
+      "excerpt": "Quản lý bộ nhớ và Garbage Collection JavaScript tự động quản lý bộ nhớ thông qua cơ chế Garbage Collection (GC). 1. Vòng đời bộ nhớ 1. Cấp phát: Khi khai báo biến, object. 2. Sử dụng: Đọc/ghi giá trị. 3. Giải phóng: Khi không còn cần thiết."
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "debugging-memory-leaks",
+      "title": "Debug rò rỉ bộ nhớ",
+      "path": "/content/javascript/devtools/debugging-memory-leaks.md",
+      "excerpt": "Debug rò rỉ bộ nhớ (DevTools) Chrome / Edge (tóm tắt quy trình) 1. Mở DevTools → Memory . 2. Chụp Heap snapshot trước/sau thao tác nghi ngờ. 3. So sánh delta retained size, tìm constructor ( , , closure). 4. Dùng Performance với memory chec"
+    },
+    {
+      "moduleId": "javascript",
+      "moduleTitle": "JavaScript Complete Guide",
+      "categoryId": "advanced",
+      "categoryTitle": "Nâng Cao",
+      "sectionId": "debugging-performance",
+      "title": "Debug hiệu năng",
+      "path": "/content/javascript/devtools/debugging-performance.md",
+      "excerpt": "Debug hiệu năng (DevTools) Performance panel Ghi profile khi tương tác (scroll, nhập, mở modal). Xem Long tasks trên main thread, layout/paint, script time. Nguyên nhân chậm thường gặp Tính toán nặng trên main thread. Layout thrashing (đọc/"
+    }
+  ]
+}
